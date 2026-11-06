@@ -1,0 +1,29 @@
+======================================
+OPERATION NEPTUNE: TERMINAL OF DESPINA
+======================================
+
+To the engineer receiving this signal,
+
+A freezing storm on Neptune is approaching the Despina research station.
+The cooling system has failed, and the station needs your help.
+
+You can now control the system only through the command-line interface.
+
+Your mission is to:
+
+  1. Explore the station and find the hidden signal.
+  2. Find errors in the station logs.
+  3. Search for clues about the cooling system.
+  4. Restore the system and make the station operational again.
+  5. Record your dream in the Dream Capsule.
+
+First clue:
+The station logs are in the logs folder
+inside the ~/neptune home directory.
+
+Before setting out, take another look around.
+A signal may be hidden somewhere close to you.
+
+Good luck, engineer.
+
+BEYOND THE STARS. DREAMS BEGIN.
