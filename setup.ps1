@@ -1,5 +1,7 @@
 # Run in PowerShell while signed in to the workshop's Windows account.
 function Start-DespinaSetup {
+    param([switch]$UseCachedScript, [string]$DistributionName)
+
     $ErrorActionPreference = 'Stop'
     [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
     if ($env:OS -ne 'Windows_NT' -or -not (Get-Command wsl.exe -ErrorAction SilentlyContinue)) {
@@ -8,8 +10,14 @@ function Start-DespinaSetup {
 
     $installed = & wsl.exe --list --quiet
     if ($LASTEXITCODE -ne 0) { throw 'Could not list WSL distributions. Run wsl --list --verbose to check WSL.' }
-    $distribution = $installed | ForEach-Object { ($_ -replace "`0", '').Trim() } |
-        Where-Object { $_ -match '^(Ubuntu(?:-\d+\.\d+)?|Debian)$' } | Select-Object -First 1
+    $installed = @($installed | ForEach-Object { ($_ -replace "`0", '').Trim() })
+    if ($DistributionName) {
+        if ($installed -notcontains $DistributionName) { throw "WSL distribution $DistributionName was not found." }
+        $distribution = $DistributionName
+    }
+    else {
+        $distribution = $installed | Where-Object { $_ -match '^(Ubuntu(?:-\d+\.\d+)?|Debian)$' } | Select-Object -First 1
+    }
     if (-not $distribution) {
         throw 'Install Ubuntu in WSL with wsl --install -d Ubuntu, open it once to complete setup, then run this command again.'
     }
@@ -21,16 +29,42 @@ function Start-DespinaSetup {
     }
 
     Write-Host "Setting up Docker Engine and the workshop in $distribution..."
-    $scriptPath = [IO.Path]::GetTempFileName()
-    try {
-        Invoke-WebRequest -UseBasicParsing -Uri 'https://raw.githubusercontent.com/thrxpt/tod/main/setup-wsl.sh' -OutFile $scriptPath
-        $linuxPath = & wsl.exe --distribution $distribution --user root --exec wslpath -a -u $scriptPath
-        if ($LASTEXITCODE -ne 0) { throw 'Could not access the setup script from WSL.' }
-        & wsl.exe --distribution $distribution --user root --exec bash $linuxPath.Trim()
-        if ($LASTEXITCODE -ne 0) { throw 'WSL workshop setup failed. Review the message above, then run setup again.' }
+    $installDirectory = Join-Path $env:LOCALAPPDATA 'DespinaWorkshop'
+    $scriptPath = Join-Path $installDirectory 'setup-wsl.sh'
+    if (-not $UseCachedScript) {
+        New-Item -ItemType Directory -Path $installDirectory -Force | Out-Null
+        $downloadPath = Join-Path $installDirectory ([guid]::NewGuid().ToString())
+        try {
+            Invoke-WebRequest -UseBasicParsing -Uri 'https://raw.githubusercontent.com/thrxpt/tod/main/setup-wsl.sh' -OutFile $downloadPath
+            Move-Item -Path $downloadPath -Destination $scriptPath -Force
+        }
+        finally {
+            if (Test-Path $downloadPath) { Remove-Item -Force $downloadPath }
+        }
     }
-    finally {
-        Remove-Item -Force $scriptPath
+    elseif (-not (Test-Path $scriptPath)) {
+        throw 'The local startup script is missing. Run the online setup command again.'
+    }
+    $linuxPath = & wsl.exe --distribution $distribution --user root --exec wslpath -a -u $scriptPath
+    if ($LASTEXITCODE -ne 0) { throw 'Could not access the setup script from WSL.' }
+    & wsl.exe --distribution $distribution --user root --exec bash $linuxPath.Trim()
+    if ($LASTEXITCODE -ne 0) { throw 'WSL workshop setup failed. Review the message above, then run setup again.' }
+
+    if (-not $UseCachedScript) {
+        $launcherPath = Join-Path $installDirectory 'start.ps1'
+        $quotedDistribution = $distribution.Replace("'", "''")
+        $launcher = "function Start-DespinaSetup {`n" + ${function:Start-DespinaSetup}.ToString() + "`n}`nStart-DespinaSetup -UseCachedScript -DistributionName '$quotedDistribution'`n"
+        [IO.File]::WriteAllText($launcherPath, $launcher, (New-Object Text.UTF8Encoding($false)))
+        $desktop = [Environment]::GetFolderPath('DesktopDirectory')
+        if (-not $desktop) { throw 'The Windows Desktop folder could not be found.' }
+        $desktopScript = Join-Path $desktop 'Start Despina Workshop.cmd'
+        $commands = @(
+            '@echo off',
+            'powershell.exe -NoLogo -NoProfile -ExecutionPolicy Bypass -File "%LOCALAPPDATA%\DespinaWorkshop\start.ps1"',
+            'if errorlevel 1 pause'
+        ) -join "`r`n"
+        [IO.File]::WriteAllText($desktopScript, ($commands + "`r`n"), [Text.Encoding]::ASCII)
+        Write-Host "Desktop startup script created at $desktopScript"
     }
 
     # Keep WSL active after this setup window closes.

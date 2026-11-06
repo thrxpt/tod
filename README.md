@@ -12,6 +12,8 @@ irm https://raw.githubusercontent.com/thrxpt/tod/main/setup.ps1 | iex
 
 Setup installs Docker Engine and its CLI inside the selected distribution using its `docker.io` package. It starts the Docker service, downloads and builds the workshop, then opens **http://localhost:7681**. The script uses WSL's root account for Linux package installation. Windows administrator elevation is unnecessary for an existing working WSL 2 installation.
 
+The workshop Terminal displays `engineer@despina-control`. New containers use `despina-control` as their hostname. Setup updates the visible prompt in existing workshop containers while preserving their mission progress.
+
 If the selected distribution uses WSL 1, setup stops with the conversion command. If Ubuntu or Debian is missing, setup provides the installation command. Complete that preparation and run setup again.
 
 You can also copy `setup.ps1` to a PC and run it locally. It downloads the companion `setup-wsl.sh` from this repository.
@@ -22,7 +24,9 @@ powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\setup.ps1
 
 ## Reopen and preserve progress
 
-Run the same setup command after restarting Windows. It starts the Docker service and reuses the existing workshop container, preserving mission files and checkpoints. It downloads current workshop source only when creating a new container.
+Setup creates **Start Despina Workshop.cmd** on the current Windows user's Desktop, including a redirected OneDrive Desktop. Double-click it to start Docker in WSL, reopen the existing workshop, and launch the browser after restarting Windows. The desktop script uses local startup files in `%LOCALAPPDATA%\DespinaWorkshop` and the WSL distribution chosen during setup. Reopening an installed container works offline.
+
+Run the online setup command again to refresh these local startup files. It downloads current workshop source only when creating a new container.
 
 Setup keeps a background WSL session running so the workshop stays available after the PowerShell window closes. Signing out, restarting Windows, or running `wsl --shutdown` ends that session. Run setup again to reopen the workshop.
 

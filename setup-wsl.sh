@@ -71,8 +71,18 @@ else
         https://github.com/thrxpt/tod/archive/refs/heads/main.tar.gz |
         tar -xz -C "$workspace"
     docker_local build --tag despina-workshop:local "$workspace/tod-main"
-    docker_local run -d --name "$container" --label com.despina.workshop=true \
+    docker_local run -d --name "$container" --hostname despina-control --label com.despina.workshop=true \
         --restart unless-stopped -p 127.0.0.1:7681:7681 despina-workshop:local
 fi
+
+# Update the visible prompt in existing containers while preserving their mission files.
+printf '%s\n' 'export PS1="\u@despina-control:\w\$ "' |
+    docker_local exec -i --user engineer "$container" bash -c '
+        desired=$(cat)
+        file=/home/engineer/.bashrc
+        if ! grep -Fxq -- "$desired" "$file"; then
+            printf "\n%s\n" "$desired" >> "$file"
+        fi
+    '
 
 echo 'Workshop container ready. Open http://localhost:7681 from Windows.'
