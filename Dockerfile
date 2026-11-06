@@ -9,7 +9,7 @@ ENV LANG=en_US.UTF-8 LANGUAGE=en_US:en LC_ALL=en_US.UTF-8
 
 RUN useradd -m -s /bin/bash engineer
 
-RUN printf '%s\n' 'export PS1="\u@despina-control:\w\$ "' >> /home/engineer/.bashrc
+RUN printf '%s\n' 'PS1=${PS1//\\h/despina-control}' >> /home/engineer/.bashrc
 
 WORKDIR /home/engineer/neptune
 

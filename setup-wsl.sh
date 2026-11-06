@@ -76,13 +76,20 @@ else
 fi
 
 # Update the visible prompt in existing containers while preserving their mission files.
-printf '%s\n' 'export PS1="\u@despina-control:\w\$ "' |
+printf '%s\n' 'PS1=${PS1//\\h/despina-control}' 'export PS1="\u@despina-control:\w\$ "' |
     docker_local exec -i --user engineer "$container" bash -c '
-        desired=$(cat)
+        set -e
+        IFS= read -r desired
+        IFS= read -r previous
         file=/home/engineer/.bashrc
-        if ! grep -Fxq -- "$desired" "$file"; then
-            printf "\n%s\n" "$desired" >> "$file"
+        temporary=$(mktemp /home/engineer/.bashrc.XXXXXX)
+        trap "rm -f -- \"$temporary\"" EXIT
+        grep -Fvx -- "$previous" "$file" > "$temporary" || [ "$?" -eq 1 ]
+        if ! grep -Fxq -- "$desired" "$temporary"; then
+            printf "\n%s\n" "$desired" >> "$temporary"
         fi
+        chmod --reference="$file" "$temporary"
+        mv -- "$temporary" "$file"
     '
 
 echo 'Workshop container ready. Open http://localhost:7681 from Windows.'
