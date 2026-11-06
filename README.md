@@ -1,38 +1,40 @@
 # Operation Neptune — Windows setup
 
-Run setup on each workshop PC while signed in to the Windows account that will be used during the workshop. Supported machines are Intel/AMD 64-bit Windows PCs that meet [Docker Desktop requirements](https://docs.docker.com/desktop/setup/install/windows-install/). Enable hardware virtualization in BIOS/UEFI first.
+Run setup while signed in to the Windows account used for the workshop. Each PC needs an initialized **Ubuntu or Debian distribution on WSL 2** and internet access. Setup selects the first installed distribution named `Ubuntu`, `Ubuntu-<version>`, or `Debian`. Check the distributions and their WSL versions with `wsl --list --verbose`.
 
-## Install
+## Install and open
 
-After `setup.ps1` is published to the `main` branch of this repository, open **Windows PowerShell → Run as administrator** and paste this command.
+Open **PowerShell** and paste this command.
 
 ```powershell
 irm https://raw.githubusercontent.com/thrxpt/tod/main/setup.ps1 | iex
 ```
 
-Setup enables Windows virtualization, installs or updates WSL 2, installs Docker Desktop through `winget` when needed, then downloads, builds, and starts the workshop. Complete the installer and any first-run prompts. If setup requests a restart, restart Windows and run the same command again. WSL installation may require more than one pass on a new PC.
+Setup installs Docker Engine and its CLI inside the selected distribution using its `docker.io` package. It starts the Docker service, downloads and builds the workshop, then opens **http://localhost:7681**. The script uses WSL's root account for Linux package installation. Windows administrator elevation is unnecessary for an existing working WSL 2 installation.
 
-The script uses `winget install --id Docker.DockerDesktop --exact --source winget --interactive`. If `winget` is unavailable, install or update **App Installer** from Microsoft Store first.
+If the selected distribution uses WSL 1, setup stops with the conversion command. If Ubuntu or Debian is missing, setup provides the installation command. Complete that preparation and run setup again.
 
-When ready, setup opens **http://localhost:7681**. Each PC has its own mission files and checkpoints.
-
-You can also copy `setup.ps1` to each PC and run it locally from an administrator PowerShell window.
+You can also copy `setup.ps1` to a PC and run it locally. It downloads the companion `setup-wsl.sh` from this repository.
 
 ```powershell
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\setup.ps1
 ```
 
-## Reopen the workshop
+## Reopen and preserve progress
 
-Start Docker Desktop, then open **http://localhost:7681**. Rerunning setup starts the existing workshop container and preserves its mission progress. The installer downloads current source only when creating a new workshop container.
+Run the same setup command after restarting Windows. It starts the Docker service and reuses the existing workshop container, preserving mission files and checkpoints. It downloads current workshop source only when creating a new container.
 
-Mission files and checkpoints remain in that container across restarts. Removing the container or resetting Docker Desktop storage removes that progress.
+Setup keeps a background WSL session running so the workshop stays available after the PowerShell window closes. Signing out, restarting Windows, or running `wsl --shutdown` ends that session. Run setup again to reopen the workshop.
+
+Each PC and WSL distribution has separate workshop storage. Removing the workshop container, unregistering its WSL distribution, or deleting Docker's data removes its progress.
+
+If a previous workshop was created using Docker Desktop, that container remains in Docker Desktop's separate engine. This installer creates its own container inside WSL and does not migrate that earlier progress. Disable Docker Desktop's WSL integration for the selected distribution before installing a local engine. Close the old workshop if it occupies port 7681.
 
 ## Before the workshop
 
-Check each PC can type commands in the Terminal, run `mission-status`, and reach the Dream Capsule API. Build and page startup are checked by setup. API submission requires a separate live test.
+Test one Windows PC first, then run setup on the remaining PCs. Check that the Terminal accepts commands, `mission-status` works, and the Dream Capsule API accepts a test submission. Setup checks that Windows can open the workshop page. WSL's localhost forwarding must be enabled for this to work.
 
 ## References
 
-- [Docker Desktop installation and first-run requirements](https://docs.docker.com/desktop/setup/install/windows-install/)
-- [WSL installation options](https://learn.microsoft.com/en-us/windows/wsl/basic-commands#install)
+- [Microsoft WSL distribution and version commands](https://learn.microsoft.com/en-us/windows/wsl/basic-commands)
+- [Accessing WSL applications from Windows with localhost](https://learn.microsoft.com/en-us/windows/wsl/networking#accessing-linux-networking-apps-from-windows-localhost)
