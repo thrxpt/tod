@@ -91,7 +91,24 @@ function Start-DespinaSetup {
         throw "The workshop is running in WSL but Windows cannot reach $url. Check WSL localhost forwarding and wsl -d $distribution -u root -- docker logs despina-workshop."
     }
     Write-Host "Workshop ready at $url" -ForegroundColor Green
-    Start-Process $url
+    $browser = $null
+    foreach ($exe in @('msedge.exe', 'chrome.exe')) {
+        foreach ($root in @('HKCU:\Software\Microsoft\Windows\CurrentVersion\App Paths', 'HKLM:\Software\Microsoft\Windows\CurrentVersion\App Paths')) {
+            $candidate = (Get-ItemProperty -LiteralPath "$root\$exe" -ErrorAction SilentlyContinue).'(default)'
+            if ($candidate -and (Test-Path -LiteralPath $candidate)) {
+                $browser = $candidate
+                break
+            }
+        }
+        if ($browser) { break }
+    }
+    if ($browser) {
+        Start-Process -FilePath $browser -ArgumentList @('--new-window', '--start-fullscreen', $url)
+    }
+    else {
+        Write-Warning 'Microsoft Edge or Google Chrome was not found. Opening the default browser; press F11 for full screen.'
+        Start-Process $url
+    }
 }
 
 Start-DespinaSetup

@@ -12,6 +12,8 @@ irm https://raw.githubusercontent.com/thrxpt/tod/main/setup.ps1 | iex
 
 Setup installs Docker Engine and its CLI inside the selected distribution using its `docker.io` package. It starts the Docker service, downloads and builds the workshop, then opens **http://localhost:7681**. The script uses WSL's root account for Linux package installation. Windows administrator elevation is unnecessary for an existing working WSL 2 installation.
 
+The workshop opens in a full-screen Microsoft Edge window, or Google Chrome if Edge is unavailable. If neither browser is installed, it opens in the default browser; press F11 to enter full screen.
+
 The workshop Terminal displays `engineer@despina-control`. New containers use `despina-control` as their hostname. Setup updates the visible prompt in existing workshop containers while preserving their mission progress.
 
 If the selected distribution uses WSL 1, setup stops with the conversion command. If Ubuntu or Debian is missing, setup provides the installation command. Complete that preparation and run setup again.
