@@ -1,606 +1,987 @@
-[02:00:02] [DEBUG] NAV_SYSTEM: Internal register #1 verified - Latency: 17ms
-[02:00:04] [TRACE] POWER_GRID: Frame transmission ACK received from Node-34
-[02:00:06] [WARN] COMM_RELAY: Minor thermal drift detected (+0.51C)
-[02:00:08] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 168W
-[02:00:10] [INFO] PAYLOAD_BAY: frequency scan - Status: Nominal (Value: 85%)
-[02:00:12] [DEBUG] ATTITUDE_CTRL: Internal register #6 verified - Latency: 2ms
-[02:00:14] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-19
-[02:00:16] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.36C)
-[02:00:18] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 153W
-[02:00:20] [INFO] LIFE_SUPPORT: voltage sync - Status: Nominal (Value: 70%)
-[02:00:22] [DEBUG] NAV_SYSTEM: Internal register #11 verified - Latency: 87ms
-[02:00:24] [TRACE] POWER_GRID: Frame transmission ACK received from Node-4
-[02:00:26] [WARN] COMM_RELAY: Minor thermal drift detected (+0.21C)
-[02:00:28] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 138W
-[02:00:30] [INFO] PAYLOAD_BAY: pressure check - Status: Nominal (Value: 55%)
-[02:00:32] [DEBUG] ATTITUDE_CTRL: Internal register #16 verified - Latency: 72ms
-[02:00:34] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-89
-[02:00:36] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.6C)
-[02:00:38] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 123W
-[02:00:40] [INFO] LIFE_SUPPORT: data packet rx - Status: Nominal (Value: 40%)
-[02:00:42] [DEBUG] NAV_SYSTEM: Internal register #21 verified - Latency: 57ms
-[02:00:44] [TRACE] POWER_GRID: Frame transmission ACK received from Node-74
-[02:00:46] [WARN] COMM_RELAY: Minor thermal drift detected (+0.91C)
-[02:00:48] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 18W
-[02:00:50] [INFO] PAYLOAD_BAY: buffer flush - Status: Nominal (Value: 25%)
-[02:00:52] [DEBUG] ATTITUDE_CTRL: Internal register #26 verified - Latency: 42ms
-[02:00:54] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-59
-[02:00:56] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.76C)
-[02:00:58] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 193W
-[02:01:00] [INFO] LIFE_SUPPORT: internal audit - Status: Nominal (Value: 10%)
-[02:01:02] [DEBUG] NAV_SYSTEM: Internal register #31 verified - Latency: 27ms
-[02:01:04] [TRACE] POWER_GRID: Frame transmission ACK received from Node-44
-[02:01:06] [WARN] COMM_RELAY: Minor thermal drift detected (+0.61C)
-[02:01:08] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 178W
-[02:01:10] [INFO] PAYLOAD_BAY: gyro calibration - Status: Nominal (Value: 95%)
-[02:01:12] [DEBUG] ATTITUDE_CTRL: Internal register #36 verified - Latency: 12ms
-[02:01:14] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-29
-[02:01:16] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.46C)
-[02:01:18] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 163W
-[02:01:20] [INFO] LIFE_SUPPORT: telemetry check - Status: Nominal (Value: 80%)
-[02:01:22] [DEBUG] NAV_SYSTEM: Internal register #41 verified - Latency: 97ms
-[02:01:24] [TRACE] POWER_GRID: Frame transmission ACK received from Node-14
-[02:01:26] [WARN] COMM_RELAY: Minor thermal drift detected (+0.31C)
-[02:01:28] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 148W
-[02:01:30] [INFO] PAYLOAD_BAY: frequency scan - Status: Nominal (Value: 65%)
-[02:01:32] [DEBUG] ATTITUDE_CTRL: Internal register #46 verified - Latency: 82ms
-[02:01:34] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-99
-[02:01:36] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.16C)
-[02:01:38] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 133W
-[02:01:40] [INFO] LIFE_SUPPORT: voltage sync - Status: Nominal (Value: 50%)
-[02:01:42] [DEBUG] NAV_SYSTEM: Internal register #51 verified - Latency: 67ms
-[02:01:44] [TRACE] POWER_GRID: Frame transmission ACK received from Node-84
-[02:01:46] [WARN] COMM_RELAY: Minor thermal drift detected (+0.1C)
-[02:01:48] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 118W
-[02:01:50] [INFO] PAYLOAD_BAY: pressure check - Status: Nominal (Value: 35%)
-[02:01:52] [DEBUG] ATTITUDE_CTRL: Internal register #56 verified - Latency: 52ms
-[02:01:54] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-69
-[02:01:56] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.86C)
-[02:01:58] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 13W
-[02:02:00] [INFO] LIFE_SUPPORT: data packet rx - Status: Nominal (Value: 20%)
-[02:02:02] [DEBUG] NAV_SYSTEM: Internal register #61 verified - Latency: 37ms
-[02:02:04] [TRACE] POWER_GRID: Frame transmission ACK received from Node-54
-[02:02:06] [WARN] COMM_RELAY: Minor thermal drift detected (+0.71C)
-[02:02:08] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 188W
-[02:02:10] [INFO] PAYLOAD_BAY: buffer flush - Status: Nominal (Value: 5%)
-[02:02:12] [DEBUG] ATTITUDE_CTRL: Internal register #66 verified - Latency: 22ms
-[02:02:14] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-39
-[02:02:16] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.56C)
-[02:02:18] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 173W
-[02:02:20] [INFO] LIFE_SUPPORT: internal audit - Status: Nominal (Value: 90%)
-[02:02:22] [DEBUG] NAV_SYSTEM: Internal register #71 verified - Latency: 7ms
-[02:02:24] [TRACE] POWER_GRID: Frame transmission ACK received from Node-24
-[02:02:26] [WARN] COMM_RELAY: Minor thermal drift detected (+0.41C)
-[02:02:28] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 158W
-[02:02:30] [INFO] PAYLOAD_BAY: gyro calibration - Status: Nominal (Value: 75%)
-[02:02:32] [DEBUG] ATTITUDE_CTRL: Internal register #76 verified - Latency: 92ms
-[02:02:34] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-9
-[02:02:36] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.26C)
-[02:02:38] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 143W
-[02:02:40] [INFO] LIFE_SUPPORT: telemetry check - Status: Nominal (Value: 60%)
-[02:02:42] [DEBUG] NAV_SYSTEM: Internal register #81 verified - Latency: 77ms
-[02:02:44] [TRACE] POWER_GRID: Frame transmission ACK received from Node-94
-[02:02:46] [WARN] COMM_RELAY: Minor thermal drift detected (+0.11C)
-[02:02:48] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 128W
-[02:02:50] [INFO] PAYLOAD_BAY: frequency scan - Status: Nominal (Value: 45%)
-[02:02:52] [DEBUG] ATTITUDE_CTRL: Internal register #86 verified - Latency: 62ms
-[02:02:54] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-79
-[02:02:56] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.96C)
-[02:02:58] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 113W
-[02:03:00] [INFO] LIFE_SUPPORT: voltage sync - Status: Nominal (Value: 30%)
-[02:03:02] [DEBUG] NAV_SYSTEM: Internal register #91 verified - Latency: 47ms
-[02:03:04] [TRACE] POWER_GRID: Frame transmission ACK received from Node-64
-[02:03:06] [WARN] COMM_RELAY: Minor thermal drift detected (+0.81C)
-[02:03:08] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 198W
-[02:03:10] [INFO] PAYLOAD_BAY: pressure check - Status: Nominal (Value: 15%)
-[02:03:12] [DEBUG] ATTITUDE_CTRL: Internal register #96 verified - Latency: 32ms
-[02:03:14] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-49
-[02:03:16] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.66C)
-[02:03:18] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 183W
-[02:03:20] [INFO] LIFE_SUPPORT: data packet rx - Status: Nominal (Value: 0%)
-[02:03:22] [DEBUG] NAV_SYSTEM: Internal register #101 verified - Latency: 17ms
-[02:03:24] [TRACE] POWER_GRID: Frame transmission ACK received from Node-34
-[02:03:26] [WARN] COMM_RELAY: Minor thermal drift detected (+0.51C)
-[02:03:28] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 168W
-[02:03:30] [INFO] PAYLOAD_BAY: buffer flush - Status: Nominal (Value: 85%)
-[02:03:32] [DEBUG] ATTITUDE_CTRL: Internal register #106 verified - Latency: 2ms
-[02:03:34] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-19
-[02:03:36] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.36C)
-[02:03:38] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 153W
-[02:03:40] [INFO] LIFE_SUPPORT: internal audit - Status: Nominal (Value: 70%)
-[02:03:42] [DEBUG] NAV_SYSTEM: Internal register #111 verified - Latency: 87ms
-[02:03:44] [TRACE] POWER_GRID: Frame transmission ACK received from Node-4
-[02:03:46] [WARN] COMM_RELAY: Minor thermal drift detected (+0.21C)
-[02:03:48] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 138W
-[02:03:50] [INFO] PAYLOAD_BAY: gyro calibration - Status: Nominal (Value: 55%)
-[02:03:52] [DEBUG] ATTITUDE_CTRL: Internal register #116 verified - Latency: 72ms
-[02:03:54] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-89
-[02:03:56] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.6C)
-[02:03:58] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 123W
-[02:04:00] [INFO] LIFE_SUPPORT: telemetry check - Status: Nominal (Value: 40%)
-[02:04:02] [DEBUG] NAV_SYSTEM: Internal register #121 verified - Latency: 57ms
-[02:04:04] [TRACE] POWER_GRID: Frame transmission ACK received from Node-74
-[02:04:06] [WARN] COMM_RELAY: Minor thermal drift detected (+0.91C)
-[02:04:08] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 18W
-[02:04:10] [INFO] PAYLOAD_BAY: frequency scan - Status: Nominal (Value: 25%)
-[02:04:12] [DEBUG] ATTITUDE_CTRL: Internal register #126 verified - Latency: 42ms
-[02:04:14] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-59
-[02:04:16] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.76C)
-[02:04:18] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 193W
-[02:04:20] [INFO] LIFE_SUPPORT: voltage sync - Status: Nominal (Value: 10%)
-[02:04:22] [DEBUG] NAV_SYSTEM: Internal register #131 verified - Latency: 27ms
-[02:04:24] [TRACE] POWER_GRID: Frame transmission ACK received from Node-44
-[02:04:26] [WARN] COMM_RELAY: Minor thermal drift detected (+0.61C)
-[02:04:28] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 178W
-[02:04:30] [INFO] PAYLOAD_BAY: pressure check - Status: Nominal (Value: 95%)
-[02:04:32] [DEBUG] ATTITUDE_CTRL: Internal register #136 verified - Latency: 12ms
-[02:04:34] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-29
-[02:04:36] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.46C)
-[02:04:38] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 163W
-[02:04:40] [INFO] LIFE_SUPPORT: data packet rx - Status: Nominal (Value: 80%)
-[02:04:42] [DEBUG] NAV_SYSTEM: Internal register #141 verified - Latency: 97ms
-[02:04:44] [TRACE] POWER_GRID: Frame transmission ACK received from Node-14
-[02:04:46] [WARN] COMM_RELAY: Minor thermal drift detected (+0.31C)
-[02:04:48] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 148W
-[02:04:50] [INFO] PAYLOAD_BAY: buffer flush - Status: Nominal (Value: 65%)
-[02:04:52] [DEBUG] ATTITUDE_CTRL: Internal register #146 verified - Latency: 82ms
-[02:04:54] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-99
-[02:04:56] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.16C)
-[02:04:58] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 133W
-[02:05:00] [INFO] LIFE_SUPPORT: internal audit - Status: Nominal (Value: 50%)
-[02:05:02] [DEBUG] NAV_SYSTEM: Internal register #151 verified - Latency: 67ms
-[02:05:04] [TRACE] POWER_GRID: Frame transmission ACK received from Node-84
-[02:05:06] [WARN] COMM_RELAY: Minor thermal drift detected (+0.1C)
-[02:05:08] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 118W
-[02:05:10] [INFO] PAYLOAD_BAY: gyro calibration - Status: Nominal (Value: 35%)
-[02:05:12] [DEBUG] ATTITUDE_CTRL: Internal register #156 verified - Latency: 52ms
-[02:05:14] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-69
-[02:05:16] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.86C)
-[02:05:18] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 13W
-[02:05:20] [INFO] LIFE_SUPPORT: telemetry check - Status: Nominal (Value: 20%)
-[02:05:22] [DEBUG] NAV_SYSTEM: Internal register #161 verified - Latency: 37ms
-[02:05:24] [TRACE] POWER_GRID: Frame transmission ACK received from Node-54
-[02:05:26] [WARN] COMM_RELAY: Minor thermal drift detected (+0.71C)
-[02:05:28] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 188W
-[02:05:30] [INFO] PAYLOAD_BAY: frequency scan - Status: Nominal (Value: 5%)
-[02:05:32] [DEBUG] ATTITUDE_CTRL: Internal register #166 verified - Latency: 22ms
-[02:05:34] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-39
-[02:05:36] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.56C)
-[02:05:38] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 173W
-[02:05:40] [INFO] LIFE_SUPPORT: voltage sync - Status: Nominal (Value: 90%)
-[02:05:42] [DEBUG] NAV_SYSTEM: Internal register #171 verified - Latency: 7ms
-[02:05:44] [TRACE] POWER_GRID: Frame transmission ACK received from Node-24
-[02:05:46] [WARN] COMM_RELAY: Minor thermal drift detected (+0.41C)
-[02:05:48] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 158W
-[02:05:50] [INFO] PAYLOAD_BAY: pressure check - Status: Nominal (Value: 75%)
-[02:05:52] [DEBUG] ATTITUDE_CTRL: Internal register #176 verified - Latency: 92ms
-[02:05:54] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-9
-[02:05:56] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.26C)
-[02:05:58] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 143W
-[02:06:00] [INFO] LIFE_SUPPORT: data packet rx - Status: Nominal (Value: 60%)
-[02:06:02] [DEBUG] NAV_SYSTEM: Internal register #181 verified - Latency: 77ms
-[02:06:04] [TRACE] POWER_GRID: Frame transmission ACK received from Node-94
-[02:06:06] [WARN] COMM_RELAY: Minor thermal drift detected (+0.11C)
-[02:06:08] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 128W
-[02:06:10] [INFO] PAYLOAD_BAY: buffer flush - Status: Nominal (Value: 45%)
-[02:06:12] [DEBUG] ATTITUDE_CTRL: Internal register #186 verified - Latency: 62ms
-[02:06:14] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-79
-[02:06:16] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.96C)
-[02:06:18] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 113W
-[02:06:20] [INFO] LIFE_SUPPORT: internal audit - Status: Nominal (Value: 30%)
-[02:06:22] [DEBUG] NAV_SYSTEM: Internal register #191 verified - Latency: 47ms
-[02:06:24] [TRACE] POWER_GRID: Frame transmission ACK received from Node-64
-[02:06:26] [WARN] COMM_RELAY: Minor thermal drift detected (+0.81C)
-[02:06:28] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 198W
-[02:06:30] [INFO] PAYLOAD_BAY: gyro calibration - Status: Nominal (Value: 15%)
-[02:06:32] [DEBUG] ATTITUDE_CTRL: Internal register #196 verified - Latency: 32ms
-[02:06:34] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-49
-[02:06:36] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.66C)
-[02:06:38] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 183W
-[02:06:40] [INFO] LIFE_SUPPORT: telemetry check - Status: Nominal (Value: 0%)
-[02:06:42] [DEBUG] NAV_SYSTEM: Internal register #201 verified - Latency: 17ms
-[02:06:44] [TRACE] POWER_GRID: Frame transmission ACK received from Node-34
-[02:06:46] [WARN] COMM_RELAY: Minor thermal drift detected (+0.51C)
-[02:06:48] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 168W
-[02:06:50] [INFO] PAYLOAD_BAY: frequency scan - Status: Nominal (Value: 85%)
-[02:06:52] [DEBUG] ATTITUDE_CTRL: Internal register #206 verified - Latency: 2ms
-[02:06:54] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-19
-[02:06:56] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.36C)
-[02:06:58] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 153W
-[02:07:00] [INFO] LIFE_SUPPORT: voltage sync - Status: Nominal (Value: 70%)
-[02:07:02] [DEBUG] NAV_SYSTEM: Internal register #211 verified - Latency: 87ms
-[02:07:04] [TRACE] POWER_GRID: Frame transmission ACK received from Node-4
-[02:07:06] [WARN] COMM_RELAY: Minor thermal drift detected (+0.21C)
-[02:07:08] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 138W
-[02:07:10] [INFO] PAYLOAD_BAY: pressure check - Status: Nominal (Value: 55%)
-[02:07:12] [DEBUG] ATTITUDE_CTRL: Internal register #216 verified - Latency: 72ms
-[02:07:14] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-89
-[02:07:16] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.6C)
-[02:07:18] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 123W
-[02:07:20] [INFO] LIFE_SUPPORT: data packet rx - Status: Nominal (Value: 40%)
-[02:07:22] [DEBUG] NAV_SYSTEM: Internal register #221 verified - Latency: 57ms
-[02:07:24] [TRACE] POWER_GRID: Frame transmission ACK received from Node-74
-[02:07:26] [WARN] COMM_RELAY: Minor thermal drift detected (+0.91C)
-[02:07:28] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 18W
-[02:07:30] [INFO] PAYLOAD_BAY: buffer flush - Status: Nominal (Value: 25%)
-[02:07:32] [DEBUG] ATTITUDE_CTRL: Internal register #226 verified - Latency: 42ms
-[02:07:34] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-59
-[02:07:36] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.76C)
-[02:07:38] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 193W
-[02:07:40] [INFO] LIFE_SUPPORT: internal audit - Status: Nominal (Value: 10%)
-[02:07:42] [DEBUG] NAV_SYSTEM: Internal register #231 verified - Latency: 27ms
-[02:07:44] [TRACE] POWER_GRID: Frame transmission ACK received from Node-44
-[02:07:46] [WARN] COMM_RELAY: Minor thermal drift detected (+0.61C)
-[02:07:48] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 178W
-[02:07:50] [INFO] PAYLOAD_BAY: gyro calibration - Status: Nominal (Value: 95%)
-[02:07:52] [DEBUG] ATTITUDE_CTRL: Internal register #236 verified - Latency: 12ms
-[02:07:54] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-29
-[02:07:56] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.46C)
-[02:07:58] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 163W
-[02:08:00] [INFO] LIFE_SUPPORT: telemetry check - Status: Nominal (Value: 80%)
-[02:08:02] [DEBUG] NAV_SYSTEM: Internal register #241 verified - Latency: 97ms
-[02:08:04] [TRACE] POWER_GRID: Frame transmission ACK received from Node-14
-[02:08:06] [WARN] COMM_RELAY: Minor thermal drift detected (+0.31C)
-[02:08:08] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 148W
-[02:08:10] [INFO] PAYLOAD_BAY: frequency scan - Status: Nominal (Value: 65%)
-[02:08:12] [DEBUG] ATTITUDE_CTRL: Internal register #246 verified - Latency: 82ms
-[02:08:14] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-99
-[02:08:16] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.16C)
-[02:08:18] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 133W
-[02:08:20] [INFO] LIFE_SUPPORT: voltage sync - Status: Nominal (Value: 50%)
-[02:08:22] [DEBUG] NAV_SYSTEM: Internal register #251 verified - Latency: 67ms
-[02:08:24] [TRACE] POWER_GRID: Frame transmission ACK received from Node-84
-[02:08:26] [WARN] COMM_RELAY: Minor thermal drift detected (+0.1C)
-[02:08:28] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 118W
-[02:08:30] [INFO] PAYLOAD_BAY: pressure check - Status: Nominal (Value: 35%)
-[02:08:32] [DEBUG] ATTITUDE_CTRL: Internal register #256 verified - Latency: 52ms
-[02:08:34] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-69
-[02:08:36] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.86C)
-[02:08:38] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 13W
-[02:08:40] [INFO] LIFE_SUPPORT: data packet rx - Status: Nominal (Value: 20%)
-[02:08:42] [DEBUG] NAV_SYSTEM: Internal register #261 verified - Latency: 37ms
-[02:08:44] [TRACE] POWER_GRID: Frame transmission ACK received from Node-54
-[02:08:46] [WARN] COMM_RELAY: Minor thermal drift detected (+0.71C)
-[02:08:48] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 188W
-[02:08:50] [INFO] PAYLOAD_BAY: buffer flush - Status: Nominal (Value: 5%)
-[02:08:52] [DEBUG] ATTITUDE_CTRL: Internal register #266 verified - Latency: 22ms
-[02:08:54] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-39
-[02:08:56] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.56C)
-[02:08:58] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 173W
-[02:09:00] [INFO] LIFE_SUPPORT: internal audit - Status: Nominal (Value: 90%)
-[02:09:02] [DEBUG] NAV_SYSTEM: Internal register #271 verified - Latency: 7ms
-[02:09:04] [TRACE] POWER_GRID: Frame transmission ACK received from Node-24
-[02:09:06] [WARN] COMM_RELAY: Minor thermal drift detected (+0.41C)
-[02:09:08] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 158W
-[02:09:10] [INFO] PAYLOAD_BAY: gyro calibration - Status: Nominal (Value: 75%)
-[02:09:12] [DEBUG] ATTITUDE_CTRL: Internal register #276 verified - Latency: 92ms
-[02:09:14] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-9
-[02:09:16] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.26C)
-[02:09:18] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 143W
-[02:09:20] [INFO] LIFE_SUPPORT: telemetry check - Status: Nominal (Value: 60%)
-[02:09:22] [DEBUG] NAV_SYSTEM: Internal register #281 verified - Latency: 77ms
-[02:09:24] [TRACE] POWER_GRID: Frame transmission ACK received from Node-94
-[02:09:26] [WARN] COMM_RELAY: Minor thermal drift detected (+0.11C)
-[02:09:28] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 128W
-[02:09:30] [INFO] PAYLOAD_BAY: frequency scan - Status: Nominal (Value: 45%)
-[02:09:32] [DEBUG] ATTITUDE_CTRL: Internal register #286 verified - Latency: 62ms
-[02:09:34] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-79
-[02:09:36] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.96C)
-[02:09:38] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 113W
-[02:09:40] [INFO] LIFE_SUPPORT: voltage sync - Status: Nominal (Value: 30%)
-[02:09:42] [DEBUG] NAV_SYSTEM: Internal register #291 verified - Latency: 47ms
-[02:09:44] [TRACE] POWER_GRID: Frame transmission ACK received from Node-64
-[02:09:46] [WARN] COMM_RELAY: Minor thermal drift detected (+0.81C)
-[02:09:48] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 198W
-[02:09:50] [INFO] PAYLOAD_BAY: pressure check - Status: Nominal (Value: 15%)
-[02:09:52] [DEBUG] ATTITUDE_CTRL: Internal register #296 verified - Latency: 32ms
-[02:09:54] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-49
-[02:09:56] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.66C)
-[02:09:58] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 183W
-[02:10:00] [INFO] LIFE_SUPPORT: data packet rx - Status: Nominal (Value: 0%)
-[02:15:28] [WARN] THERMAL_CTRL: Secondary coolant loop flow rate dropped below 15%
-[02:15:30] [ERROR] COOLING_FAIL: Secondary coolant valve blocked by corrupted file!
-[02:15:31] [ERROR] COOLING_FAIL: System status set to OFF
-[02:15:31] [ERROR] COOLING_FAIL: Copy override card from backups/ to config/
-[02:15:32] [ERROR] COOLING_FAIL: Remove virus file to clear firewall
-[02:15:35] [WARN] CABIN_ENV: Ambient temp warning triggered (+2.4C/min)
-[02:10:02] [DEBUG] NAV_SYSTEM: Diagnostic ping sent to backup module 23
-[02:10:04] [WARN] POWER_GRID: High temperature flag active on adjacent bus
-[02:10:06] [INFO] COMM_RELAY: Life support auto-throttling at 69%
-[02:10:08] [INFO] THERMAL_CTRL: System bypass check #304 - Status: Standby
-[02:10:10] [DEBUG] PAYLOAD_BAY: Diagnostic ping sent to backup module 15
-[02:10:12] [WARN] ATTITUDE_CTRL: High temperature flag active on adjacent bus
-[02:10:14] [INFO] CABIN_ENV: Life support auto-throttling at 61%
-[02:10:16] [INFO] SOLAR_ARRAY: System bypass check #308 - Status: Standby
-[02:10:18] [DEBUG] DOCKING_PORT: Diagnostic ping sent to backup module 7
-[02:10:20] [WARN] LIFE_SUPPORT: High temperature flag active on adjacent bus
-[02:10:22] [INFO] NAV_SYSTEM: Life support auto-throttling at 53%
-[02:10:24] [INFO] POWER_GRID: System bypass check #312 - Status: Standby
-[02:10:26] [DEBUG] COMM_RELAY: Diagnostic ping sent to backup module 99
-[02:10:28] [WARN] THERMAL_CTRL: High temperature flag active on adjacent bus
-[02:10:30] [INFO] PAYLOAD_BAY: Life support auto-throttling at 45%
-[02:10:32] [INFO] ATTITUDE_CTRL: System bypass check #316 - Status: Standby
-[02:10:34] [DEBUG] CABIN_ENV: Diagnostic ping sent to backup module 91
-[02:10:36] [WARN] SOLAR_ARRAY: High temperature flag active on adjacent bus
-[02:10:38] [INFO] DOCKING_PORT: Life support auto-throttling at 37%
-[02:10:40] [INFO] LIFE_SUPPORT: System bypass check #320 - Status: Standby
-[02:10:42] [DEBUG] NAV_SYSTEM: Diagnostic ping sent to backup module 83
-[02:10:44] [WARN] POWER_GRID: High temperature flag active on adjacent bus
-[02:10:46] [INFO] COMM_RELAY: Life support auto-throttling at 29%
-[02:10:48] [INFO] THERMAL_CTRL: System bypass check #324 - Status: Standby
-[02:10:50] [DEBUG] PAYLOAD_BAY: Diagnostic ping sent to backup module 75
-[02:10:52] [WARN] ATTITUDE_CTRL: High temperature flag active on adjacent bus
-[02:10:54] [INFO] CABIN_ENV: Life support auto-throttling at 21%
-[02:10:56] [INFO] SOLAR_ARRAY: System bypass check #328 - Status: Standby
-[02:10:58] [DEBUG] DOCKING_PORT: Diagnostic ping sent to backup module 67
-[02:11:00] [WARN] LIFE_SUPPORT: High temperature flag active on adjacent bus
-[02:11:02] [INFO] NAV_SYSTEM: Life support auto-throttling at 13%
-[02:11:04] [INFO] POWER_GRID: System bypass check #332 - Status: Standby
-[02:11:06] [DEBUG] COMM_RELAY: Diagnostic ping sent to backup module 59
-[02:11:08] [WARN] THERMAL_CTRL: High temperature flag active on adjacent bus
-[02:11:10] [INFO] PAYLOAD_BAY: Life support auto-throttling at 5%
-[02:11:12] [INFO] ATTITUDE_CTRL: System bypass check #336 - Status: Standby
-[02:11:14] [DEBUG] CABIN_ENV: Diagnostic ping sent to backup module 51
-[02:11:16] [WARN] SOLAR_ARRAY: High temperature flag active on adjacent bus
-[02:11:18] [INFO] DOCKING_PORT: Life support auto-throttling at 97%
-[02:11:20] [INFO] LIFE_SUPPORT: System bypass check #340 - Status: Standby
-[02:11:22] [DEBUG] NAV_SYSTEM: Diagnostic ping sent to backup module 43
-[02:11:24] [WARN] POWER_GRID: High temperature flag active on adjacent bus
-[02:11:26] [INFO] COMM_RELAY: Life support auto-throttling at 89%
-[02:11:28] [INFO] THERMAL_CTRL: System bypass check #344 - Status: Standby
-[02:11:30] [DEBUG] PAYLOAD_BAY: Diagnostic ping sent to backup module 35
-[02:11:32] [WARN] ATTITUDE_CTRL: High temperature flag active on adjacent bus
-[02:11:34] [INFO] CABIN_ENV: Life support auto-throttling at 81%
-[02:11:36] [INFO] SOLAR_ARRAY: System bypass check #348 - Status: Standby
-[02:11:38] [DEBUG] DOCKING_PORT: Diagnostic ping sent to backup module 27
-[02:11:40] [WARN] LIFE_SUPPORT: High temperature flag active on adjacent bus
-[02:11:42] [INFO] NAV_SYSTEM: Life support auto-throttling at 73%
-[02:11:44] [INFO] POWER_GRID: System bypass check #352 - Status: Standby
-[02:11:46] [DEBUG] COMM_RELAY: Diagnostic ping sent to backup module 19
-[02:11:48] [WARN] THERMAL_CTRL: High temperature flag active on adjacent bus
-[02:11:50] [INFO] PAYLOAD_BAY: Life support auto-throttling at 65%
-[02:11:52] [INFO] ATTITUDE_CTRL: System bypass check #356 - Status: Standby
-[02:11:54] [DEBUG] CABIN_ENV: Diagnostic ping sent to backup module 11
-[02:11:56] [WARN] SOLAR_ARRAY: High temperature flag active on adjacent bus
-[02:11:58] [INFO] DOCKING_PORT: Life support auto-throttling at 57%
-[02:12:00] [INFO] LIFE_SUPPORT: System bypass check #360 - Status: Standby
-[02:12:02] [DEBUG] NAV_SYSTEM: Diagnostic ping sent to backup module 3
-[02:12:04] [WARN] POWER_GRID: High temperature flag active on adjacent bus
-[02:12:06] [INFO] COMM_RELAY: Life support auto-throttling at 49%
-[02:12:08] [INFO] THERMAL_CTRL: System bypass check #364 - Status: Standby
-[02:12:10] [DEBUG] PAYLOAD_BAY: Diagnostic ping sent to backup module 95
-[02:12:12] [WARN] ATTITUDE_CTRL: High temperature flag active on adjacent bus
-[02:12:14] [INFO] CABIN_ENV: Life support auto-throttling at 41%
-[02:12:16] [INFO] SOLAR_ARRAY: System bypass check #368 - Status: Standby
-[02:12:18] [DEBUG] DOCKING_PORT: Diagnostic ping sent to backup module 87
-[02:12:20] [WARN] LIFE_SUPPORT: High temperature flag active on adjacent bus
-[02:12:22] [INFO] NAV_SYSTEM: Life support auto-throttling at 33%
-[02:12:24] [INFO] POWER_GRID: System bypass check #372 - Status: Standby
-[02:12:26] [DEBUG] COMM_RELAY: Diagnostic ping sent to backup module 79
-[02:12:28] [WARN] THERMAL_CTRL: High temperature flag active on adjacent bus
-[02:12:30] [INFO] PAYLOAD_BAY: Life support auto-throttling at 25%
-[02:12:32] [INFO] ATTITUDE_CTRL: System bypass check #376 - Status: Standby
-[02:12:34] [DEBUG] CABIN_ENV: Diagnostic ping sent to backup module 71
-[02:12:36] [WARN] SOLAR_ARRAY: High temperature flag active on adjacent bus
-[02:12:38] [INFO] DOCKING_PORT: Life support auto-throttling at 17%
-[02:12:40] [INFO] LIFE_SUPPORT: System bypass check #380 - Status: Standby
-[02:12:42] [DEBUG] NAV_SYSTEM: Diagnostic ping sent to backup module 63
-[02:12:44] [WARN] POWER_GRID: High temperature flag active on adjacent bus
-[02:12:46] [INFO] COMM_RELAY: Life support auto-throttling at 9%
-[02:12:48] [INFO] THERMAL_CTRL: System bypass check #384 - Status: Standby
-[02:12:50] [DEBUG] PAYLOAD_BAY: Diagnostic ping sent to backup module 55
-[02:12:52] [WARN] ATTITUDE_CTRL: High temperature flag active on adjacent bus
-[02:12:54] [INFO] CABIN_ENV: Life support auto-throttling at 1%
-[02:12:56] [INFO] SOLAR_ARRAY: System bypass check #388 - Status: Standby
-[02:12:58] [DEBUG] DOCKING_PORT: Diagnostic ping sent to backup module 47
-[02:13:00] [WARN] LIFE_SUPPORT: High temperature flag active on adjacent bus
-[02:13:02] [INFO] NAV_SYSTEM: Life support auto-throttling at 93%
-[02:13:04] [INFO] POWER_GRID: System bypass check #392 - Status: Standby
-[02:13:06] [DEBUG] COMM_RELAY: Diagnostic ping sent to backup module 39
-[02:13:08] [WARN] THERMAL_CTRL: High temperature flag active on adjacent bus
-[02:13:10] [INFO] PAYLOAD_BAY: Life support auto-throttling at 85%
-[02:13:12] [INFO] ATTITUDE_CTRL: System bypass check #396 - Status: Standby
-[02:13:14] [DEBUG] CABIN_ENV: Diagnostic ping sent to backup module 31
-[02:13:16] [WARN] SOLAR_ARRAY: High temperature flag active on adjacent bus
-[02:13:18] [INFO] DOCKING_PORT: Life support auto-throttling at 77%
-[02:13:20] [INFO] LIFE_SUPPORT: System bypass check #400 - Status: Standby
-[02:13:22] [DEBUG] NAV_SYSTEM: Diagnostic ping sent to backup module 23
-[02:13:24] [WARN] POWER_GRID: High temperature flag active on adjacent bus
-[02:13:26] [INFO] COMM_RELAY: Life support auto-throttling at 69%
-[02:13:28] [INFO] THERMAL_CTRL: System bypass check #404 - Status: Standby
-[02:13:30] [DEBUG] PAYLOAD_BAY: Diagnostic ping sent to backup module 15
-[02:13:32] [WARN] ATTITUDE_CTRL: High temperature flag active on adjacent bus
-[02:13:34] [INFO] CABIN_ENV: Life support auto-throttling at 61%
-[02:13:36] [INFO] SOLAR_ARRAY: System bypass check #408 - Status: Standby
-[02:13:38] [DEBUG] DOCKING_PORT: Diagnostic ping sent to backup module 7
-[02:13:40] [WARN] LIFE_SUPPORT: High temperature flag active on adjacent bus
-[02:13:42] [INFO] NAV_SYSTEM: Life support auto-throttling at 53%
-[02:13:44] [INFO] POWER_GRID: System bypass check #412 - Status: Standby
-[02:13:46] [DEBUG] COMM_RELAY: Diagnostic ping sent to backup module 99
-[02:13:48] [WARN] THERMAL_CTRL: High temperature flag active on adjacent bus
-[02:13:50] [INFO] PAYLOAD_BAY: Life support auto-throttling at 45%
-[02:13:52] [INFO] ATTITUDE_CTRL: System bypass check #416 - Status: Standby
-[02:13:54] [DEBUG] CABIN_ENV: Diagnostic ping sent to backup module 91
-[02:13:56] [WARN] SOLAR_ARRAY: High temperature flag active on adjacent bus
-[02:13:58] [INFO] DOCKING_PORT: Life support auto-throttling at 37%
-[02:14:00] [INFO] LIFE_SUPPORT: System bypass check #420 - Status: Standby
-[02:14:02] [DEBUG] NAV_SYSTEM: Diagnostic ping sent to backup module 83
-[02:14:04] [WARN] POWER_GRID: High temperature flag active on adjacent bus
-[02:14:06] [INFO] COMM_RELAY: Life support auto-throttling at 29%
-[02:14:08] [INFO] THERMAL_CTRL: System bypass check #424 - Status: Standby
-[02:14:10] [DEBUG] PAYLOAD_BAY: Diagnostic ping sent to backup module 75
-[02:14:12] [WARN] ATTITUDE_CTRL: High temperature flag active on adjacent bus
-[02:14:14] [INFO] CABIN_ENV: Life support auto-throttling at 21%
-[02:14:16] [INFO] SOLAR_ARRAY: System bypass check #428 - Status: Standby
-[02:14:18] [DEBUG] DOCKING_PORT: Diagnostic ping sent to backup module 67
-[02:14:20] [WARN] LIFE_SUPPORT: High temperature flag active on adjacent bus
-[02:14:22] [INFO] NAV_SYSTEM: Life support auto-throttling at 13%
-[02:14:24] [INFO] POWER_GRID: System bypass check #432 - Status: Standby
-[02:14:26] [DEBUG] COMM_RELAY: Diagnostic ping sent to backup module 59
-[02:14:28] [WARN] THERMAL_CTRL: High temperature flag active on adjacent bus
-[02:14:30] [INFO] PAYLOAD_BAY: Life support auto-throttling at 5%
-[02:14:32] [INFO] ATTITUDE_CTRL: System bypass check #436 - Status: Standby
-[02:14:34] [DEBUG] CABIN_ENV: Diagnostic ping sent to backup module 51
-[02:14:36] [WARN] SOLAR_ARRAY: High temperature flag active on adjacent bus
-[02:14:38] [INFO] DOCKING_PORT: Life support auto-throttling at 97%
-[02:14:40] [INFO] LIFE_SUPPORT: System bypass check #440 - Status: Standby
-[02:14:42] [DEBUG] NAV_SYSTEM: Diagnostic ping sent to backup module 43
-[02:14:44] [WARN] POWER_GRID: High temperature flag active on adjacent bus
-[02:14:46] [INFO] COMM_RELAY: Life support auto-throttling at 89%
-[02:14:48] [INFO] THERMAL_CTRL: System bypass check #444 - Status: Standby
-[02:14:50] [DEBUG] PAYLOAD_BAY: Diagnostic ping sent to backup module 35
-[02:14:52] [WARN] ATTITUDE_CTRL: High temperature flag active on adjacent bus
-[02:14:54] [INFO] CABIN_ENV: Life support auto-throttling at 81%
-[02:14:56] [INFO] SOLAR_ARRAY: System bypass check #448 - Status: Standby
-[02:14:58] [DEBUG] DOCKING_PORT: Diagnostic ping sent to backup module 27
-[02:15:00] [WARN] LIFE_SUPPORT: High temperature flag active on adjacent bus
-[02:15:02] [INFO] NAV_SYSTEM: Life support auto-throttling at 73%
-[02:15:04] [INFO] POWER_GRID: System bypass check #452 - Status: Standby
-[02:15:06] [DEBUG] COMM_RELAY: Diagnostic ping sent to backup module 19
-[02:15:08] [WARN] THERMAL_CTRL: High temperature flag active on adjacent bus
-[02:15:10] [INFO] PAYLOAD_BAY: Life support auto-throttling at 65%
-[02:15:12] [INFO] ATTITUDE_CTRL: System bypass check #456 - Status: Standby
-[02:15:14] [DEBUG] CABIN_ENV: Diagnostic ping sent to backup module 11
-[02:15:16] [WARN] SOLAR_ARRAY: High temperature flag active on adjacent bus
-[02:15:18] [INFO] DOCKING_PORT: Life support auto-throttling at 57%
-[02:15:20] [INFO] LIFE_SUPPORT: System bypass check #460 - Status: Standby
-[02:15:22] [DEBUG] NAV_SYSTEM: Diagnostic ping sent to backup module 3
-[02:15:24] [WARN] POWER_GRID: High temperature flag active on adjacent bus
-[02:15:26] [INFO] COMM_RELAY: Life support auto-throttling at 49%
-[02:15:28] [INFO] THERMAL_CTRL: System bypass check #464 - Status: Standby
-[02:15:30] [DEBUG] PAYLOAD_BAY: Diagnostic ping sent to backup module 95
-[02:15:32] [WARN] ATTITUDE_CTRL: High temperature flag active on adjacent bus
-[02:15:34] [INFO] CABIN_ENV: Life support auto-throttling at 41%
-[02:15:36] [INFO] SOLAR_ARRAY: System bypass check #468 - Status: Standby
-[02:15:38] [DEBUG] DOCKING_PORT: Diagnostic ping sent to backup module 87
-[02:15:40] [WARN] LIFE_SUPPORT: High temperature flag active on adjacent bus
-[02:15:42] [INFO] NAV_SYSTEM: Life support auto-throttling at 33%
-[02:15:44] [INFO] POWER_GRID: System bypass check #472 - Status: Standby
-[02:15:46] [DEBUG] COMM_RELAY: Diagnostic ping sent to backup module 79
-[02:15:48] [WARN] THERMAL_CTRL: High temperature flag active on adjacent bus
-[02:15:50] [INFO] PAYLOAD_BAY: Life support auto-throttling at 25%
-[02:15:52] [INFO] ATTITUDE_CTRL: System bypass check #476 - Status: Standby
-[02:15:54] [DEBUG] CABIN_ENV: Diagnostic ping sent to backup module 71
-[02:15:56] [WARN] SOLAR_ARRAY: High temperature flag active on adjacent bus
-[02:15:58] [INFO] DOCKING_PORT: Life support auto-throttling at 17%
-[02:16:00] [INFO] LIFE_SUPPORT: System bypass check #480 - Status: Standby
-[02:16:02] [DEBUG] NAV_SYSTEM: Diagnostic ping sent to backup module 63
-[02:16:04] [WARN] POWER_GRID: High temperature flag active on adjacent bus
-[02:16:06] [INFO] COMM_RELAY: Life support auto-throttling at 9%
-[02:16:08] [INFO] THERMAL_CTRL: System bypass check #484 - Status: Standby
-[02:16:10] [DEBUG] PAYLOAD_BAY: Diagnostic ping sent to backup module 55
-[02:16:12] [WARN] ATTITUDE_CTRL: High temperature flag active on adjacent bus
-[02:16:14] [INFO] CABIN_ENV: Life support auto-throttling at 1%
-[02:16:16] [INFO] SOLAR_ARRAY: System bypass check #488 - Status: Standby
-[02:16:18] [DEBUG] DOCKING_PORT: Diagnostic ping sent to backup module 47
-[02:16:20] [WARN] LIFE_SUPPORT: High temperature flag active on adjacent bus
-[02:16:22] [INFO] NAV_SYSTEM: Life support auto-throttling at 93%
-[02:16:24] [INFO] POWER_GRID: System bypass check #492 - Status: Standby
-[02:16:26] [DEBUG] COMM_RELAY: Diagnostic ping sent to backup module 39
-[02:16:28] [WARN] THERMAL_CTRL: High temperature flag active on adjacent bus
-[02:16:30] [INFO] PAYLOAD_BAY: Life support auto-throttling at 85%
-[02:16:32] [INFO] ATTITUDE_CTRL: System bypass check #496 - Status: Standby
-[02:16:34] [DEBUG] CABIN_ENV: Diagnostic ping sent to backup module 31
-[02:16:36] [WARN] SOLAR_ARRAY: High temperature flag active on adjacent bus
-[02:16:38] [INFO] DOCKING_PORT: Life support auto-throttling at 77%
-[02:16:40] [INFO] LIFE_SUPPORT: System bypass check #500 - Status: Standby
-[02:16:42] [DEBUG] NAV_SYSTEM: Diagnostic ping sent to backup module 23
-[02:16:44] [WARN] POWER_GRID: High temperature flag active on adjacent bus
-[02:16:46] [INFO] COMM_RELAY: Life support auto-throttling at 69%
-[02:16:48] [INFO] THERMAL_CTRL: System bypass check #504 - Status: Standby
-[02:16:50] [DEBUG] PAYLOAD_BAY: Diagnostic ping sent to backup module 15
-[02:16:52] [WARN] ATTITUDE_CTRL: High temperature flag active on adjacent bus
-[02:16:54] [INFO] CABIN_ENV: Life support auto-throttling at 61%
-[02:16:56] [INFO] SOLAR_ARRAY: System bypass check #508 - Status: Standby
-[02:16:58] [DEBUG] DOCKING_PORT: Diagnostic ping sent to backup module 7
-[02:17:00] [WARN] LIFE_SUPPORT: High temperature flag active on adjacent bus
-[02:17:02] [INFO] NAV_SYSTEM: Life support auto-throttling at 53%
-[02:17:04] [INFO] POWER_GRID: System bypass check #512 - Status: Standby
-[02:17:06] [DEBUG] COMM_RELAY: Diagnostic ping sent to backup module 99
-[02:17:08] [WARN] THERMAL_CTRL: High temperature flag active on adjacent bus
-[02:17:10] [INFO] PAYLOAD_BAY: Life support auto-throttling at 45%
-[02:17:12] [INFO] ATTITUDE_CTRL: System bypass check #516 - Status: Standby
-[02:17:14] [DEBUG] CABIN_ENV: Diagnostic ping sent to backup module 91
-[02:17:16] [WARN] SOLAR_ARRAY: High temperature flag active on adjacent bus
-[02:17:18] [INFO] DOCKING_PORT: Life support auto-throttling at 37%
-[02:17:20] [INFO] LIFE_SUPPORT: System bypass check #520 - Status: Standby
-[02:17:22] [DEBUG] NAV_SYSTEM: Diagnostic ping sent to backup module 83
-[02:17:24] [WARN] POWER_GRID: High temperature flag active on adjacent bus
-[02:17:26] [INFO] COMM_RELAY: Life support auto-throttling at 29%
-[02:17:28] [INFO] THERMAL_CTRL: System bypass check #524 - Status: Standby
-[02:17:30] [DEBUG] PAYLOAD_BAY: Diagnostic ping sent to backup module 75
-[02:17:32] [WARN] ATTITUDE_CTRL: High temperature flag active on adjacent bus
-[02:17:34] [INFO] CABIN_ENV: Life support auto-throttling at 21%
-[02:17:36] [INFO] SOLAR_ARRAY: System bypass check #528 - Status: Standby
-[02:17:38] [DEBUG] DOCKING_PORT: Diagnostic ping sent to backup module 67
-[02:17:40] [WARN] LIFE_SUPPORT: High temperature flag active on adjacent bus
-[02:17:42] [INFO] NAV_SYSTEM: Life support auto-throttling at 13%
-[02:17:44] [INFO] POWER_GRID: System bypass check #532 - Status: Standby
-[02:17:46] [DEBUG] COMM_RELAY: Diagnostic ping sent to backup module 59
-[02:17:48] [WARN] THERMAL_CTRL: High temperature flag active on adjacent bus
-[02:17:50] [INFO] PAYLOAD_BAY: Life support auto-throttling at 5%
-[02:17:52] [INFO] ATTITUDE_CTRL: System bypass check #536 - Status: Standby
-[02:17:54] [DEBUG] CABIN_ENV: Diagnostic ping sent to backup module 51
-[02:17:56] [WARN] SOLAR_ARRAY: High temperature flag active on adjacent bus
-[02:17:58] [INFO] DOCKING_PORT: Life support auto-throttling at 97%
-[02:18:00] [INFO] LIFE_SUPPORT: System bypass check #540 - Status: Standby
-[02:18:02] [DEBUG] NAV_SYSTEM: Diagnostic ping sent to backup module 43
-[02:18:04] [WARN] POWER_GRID: High temperature flag active on adjacent bus
-[02:18:06] [INFO] COMM_RELAY: Life support auto-throttling at 89%
-[02:18:08] [INFO] THERMAL_CTRL: System bypass check #544 - Status: Standby
-[02:18:10] [DEBUG] PAYLOAD_BAY: Diagnostic ping sent to backup module 35
-[02:18:12] [WARN] ATTITUDE_CTRL: High temperature flag active on adjacent bus
-[02:18:14] [INFO] CABIN_ENV: Life support auto-throttling at 81%
-[02:18:16] [INFO] SOLAR_ARRAY: System bypass check #548 - Status: Standby
-[02:18:18] [DEBUG] DOCKING_PORT: Diagnostic ping sent to backup module 27
-[02:18:20] [WARN] LIFE_SUPPORT: High temperature flag active on adjacent bus
-[02:18:22] [INFO] NAV_SYSTEM: Life support auto-throttling at 73%
-[02:18:24] [INFO] POWER_GRID: System bypass check #552 - Status: Standby
-[02:18:26] [DEBUG] COMM_RELAY: Diagnostic ping sent to backup module 19
-[02:18:28] [WARN] THERMAL_CTRL: High temperature flag active on adjacent bus
-[02:18:30] [INFO] PAYLOAD_BAY: Life support auto-throttling at 65%
-[02:18:32] [INFO] ATTITUDE_CTRL: System bypass check #556 - Status: Standby
-[02:18:34] [DEBUG] CABIN_ENV: Diagnostic ping sent to backup module 11
-[02:18:36] [WARN] SOLAR_ARRAY: High temperature flag active on adjacent bus
+[00:46:48] [WARN] POWER_GRID: Minor thermal drift detected (+0.74C)
+[00:47:04] [WARN] POWER_GRID: Minor thermal drift detected (+0.21C)
+[00:47:05] [INFO] DOCKING_PORT: buffer flush - Status: Nominal (Value: 36%)
+[00:47:06] [TRACE] SOLAR_ARRAY: Frame transmission ACK received from Node-83
+[00:47:18] [WARN] DOCKING_PORT: Minor thermal drift detected (+0.63C)
+[00:47:42] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-38
+[00:48:28] [INFO] COMM_RELAY: telemetry check - Status: Nominal (Value: 60%)
+[00:48:33] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-18
+[00:48:38] [INFO] CABIN_ENV: Subsystem heartbeat OK - Power consumption: 56W
+[00:48:41] [DEBUG] NAV_SYSTEM: Internal register #399 verified - Latency: 11ms
+[00:48:42] [WARN] NAV_SYSTEM: Minor thermal drift detected (+0.92C)
+[00:48:43] [DEBUG] ATTITUDE_CTRL: Internal register #27 verified - Latency: 67ms
+[00:49:04] [TRACE] THERMAL_CTRL: Frame transmission ACK received from Node-6
+[00:49:09] [TRACE] NAV_SYSTEM: Frame transmission ACK received from Node-83
+[00:49:23] [TRACE] ATTITUDE_CTRL: Frame transmission ACK received from Node-34
+[00:49:25] [INFO] SOLAR_ARRAY: Subsystem heartbeat OK - Power consumption: 124W
+[00:49:30] [INFO] ATTITUDE_CTRL: data packet rx - Status: Nominal (Value: 56%)
+[00:50:17] [INFO] SOLAR_ARRAY: pressure check - Status: Nominal (Value: 51%)
+[00:50:22] [INFO] SOLAR_ARRAY: Subsystem heartbeat OK - Power consumption: 191W
+[00:50:31] [WARN] ATTITUDE_CTRL: Minor thermal drift detected (+0.25C)
+[00:50:34] [INFO] PAYLOAD_BAY: Subsystem heartbeat OK - Power consumption: 99W
+[00:50:40] [INFO] THERMAL_CTRL: pressure check - Status: Nominal (Value: 92%)
+[00:50:45] [DEBUG] POWER_GRID: Internal register #39 verified - Latency: 18ms
+[00:50:54] [INFO] CABIN_ENV: Subsystem heartbeat OK - Power consumption: 79W
+[00:51:16] [WARN] PAYLOAD_BAY: Minor thermal drift detected (+0.91C)
+[00:51:17] [WARN] DOCKING_PORT: Minor thermal drift detected (+0.17C)
+[00:51:36] [DEBUG] SOLAR_ARRAY: Internal register #974 verified - Latency: 47ms
+[00:51:39] [DEBUG] COMM_RELAY: Internal register #307 verified - Latency: 49ms
+[00:51:43] [WARN] LIFE_SUPPORT: Minor thermal drift detected (+0.83C)
+[00:51:50] [WARN] CABIN_ENV: Minor thermal drift detected (+0.80C)
+[00:52:01] [INFO] NAV_SYSTEM: data packet rx - Status: Nominal (Value: 54%)
+[00:52:02] [INFO] ATTITUDE_CTRL: frequency scan - Status: Nominal (Value: 92%)
+[00:52:11] [TRACE] LIFE_SUPPORT: Frame transmission ACK received from Node-17
+[00:52:29] [TRACE] THERMAL_CTRL: Frame transmission ACK received from Node-42
+[00:52:34] [WARN] THERMAL_CTRL: Minor thermal drift detected (+0.54C)
+[00:52:46] [TRACE] ATTITUDE_CTRL: Frame transmission ACK received from Node-72
+[00:52:50] [INFO] CABIN_ENV: Subsystem heartbeat OK - Power consumption: 23W
+[00:52:59] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-2
+[00:53:09] [WARN] POWER_GRID: Minor thermal drift detected (+0.51C)
+[00:53:14] [WARN] DOCKING_PORT: Minor thermal drift detected (+0.89C)
+[00:53:24] [TRACE] SOLAR_ARRAY: Frame transmission ACK received from Node-78
+[00:53:31] [INFO] DOCKING_PORT: frequency scan - Status: Nominal (Value: 13%)
+[00:53:33] [WARN] NAV_SYSTEM: Minor thermal drift detected (+0.63C)
+[00:53:37] [WARN] ATTITUDE_CTRL: Minor thermal drift detected (+0.54C)
+[00:53:38] [INFO] ATTITUDE_CTRL: data packet rx - Status: Nominal (Value: 32%)
+[00:53:42] [INFO] NAV_SYSTEM: Subsystem heartbeat OK - Power consumption: 52W
+[00:53:57] [INFO] DOCKING_PORT: internal audit - Status: Nominal (Value: 62%)
+[00:53:59] [WARN] ATTITUDE_CTRL: Minor thermal drift detected (+0.56C)
+[00:54:23] [WARN] NAV_SYSTEM: Minor thermal drift detected (+0.48C)
+[00:54:48] [DEBUG] NAV_SYSTEM: Internal register #97 verified - Latency: 47ms
+[00:54:50] [WARN] LIFE_SUPPORT: Minor thermal drift detected (+0.52C)
+[00:54:53] [WARN] THERMAL_CTRL: Secondary coolant loop flow rate dropped below 15%
+[00:54:57] [ERROR] COOLING_FAIL: Secondary coolant valve blocked by corrupted file!
+[00:55:00] [WARN] CABIN_ENV: Ambient temp warning triggered (+2.4C/min)
+[00:55:08] [INFO] SOLAR_ARRAY: data packet rx - Status: Nominal (Value: 11%)
+[00:55:24] [WARN] PAYLOAD_BAY: Minor thermal drift detected (+0.56C)
+[00:55:26] [DEBUG] CABIN_ENV: Internal register #489 verified - Latency: 68ms
+[00:55:31] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.55C)
+[00:55:39] [DEBUG] LIFE_SUPPORT: Internal register #954 verified - Latency: 91ms
+[00:55:53] [DEBUG] NAV_SYSTEM: Internal register #541 verified - Latency: 59ms
+[00:55:58] [INFO] LIFE_SUPPORT: Subsystem heartbeat OK - Power consumption: 175W
+[00:56:34] [INFO] LIFE_SUPPORT: frequency scan - Status: Nominal (Value: 67%)
+[00:56:36] [INFO] POWER_GRID: internal audit - Status: Nominal (Value: 27%)
+[00:56:54] [DEBUG] DOCKING_PORT: Internal register #921 verified - Latency: 59ms
+[00:56:59] [DEBUG] COMM_RELAY: Internal register #286 verified - Latency: 28ms
+[00:57:00] [WARN] NAV_SYSTEM: Minor thermal drift detected (+0.89C)
+[00:57:07] [INFO] DOCKING_PORT: telemetry check - Status: Nominal (Value: 63%)
+[00:57:11] [INFO] NAV_SYSTEM: internal audit - Status: Nominal (Value: 29%)
+[00:57:17] [INFO] NAV_SYSTEM: Subsystem heartbeat OK - Power consumption: 116W
+[00:57:56] [INFO] SOLAR_ARRAY: voltage sync - Status: Nominal (Value: 31%)
+[00:57:57] [TRACE] SOLAR_ARRAY: Frame transmission ACK received from Node-78
+[00:58:02] [TRACE] POWER_GRID: Frame transmission ACK received from Node-1
+[00:58:52] [INFO] CABIN_ENV: frequency scan - Status: Nominal (Value: 56%)
+[00:58:59] [INFO] DOCKING_PORT: buffer flush - Status: Nominal (Value: 85%)
+[00:59:29] [DEBUG] CABIN_ENV: Internal register #660 verified - Latency: 15ms
+[00:59:36] [WARN] POWER_GRID: Minor thermal drift detected (+0.40C)
+[00:59:54] [DEBUG] POWER_GRID: Internal register #418 verified - Latency: 25ms
+[00:59:56] [DEBUG] CABIN_ENV: Internal register #262 verified - Latency: 93ms
+[01:00:10] [DEBUG] ATTITUDE_CTRL: Internal register #421 verified - Latency: 83ms
+[01:00:19] [INFO] DOCKING_PORT: buffer flush - Status: Nominal (Value: 67%)
+[01:00:35] [INFO] LIFE_SUPPORT: internal audit - Status: Nominal (Value: 89%)
+[01:00:43] [INFO] SOLAR_ARRAY: gyro calibration - Status: Nominal (Value: 86%)
+[01:00:45] [INFO] SOLAR_ARRAY: internal audit - Status: Nominal (Value: 72%)
+[01:00:49] [WARN] CABIN_ENV: Minor thermal drift detected (+0.11C)
+[01:00:52] [INFO] ATTITUDE_CTRL: Subsystem heartbeat OK - Power consumption: 107W
+[01:01:12] [TRACE] NAV_SYSTEM: Frame transmission ACK received from Node-28
+[01:01:35] [WARN] CABIN_ENV: Minor thermal drift detected (+0.29C)
+[01:01:49] [INFO] SOLAR_ARRAY: frequency scan - Status: Nominal (Value: 26%)
+[01:02:11] [WARN] DOCKING_PORT: Minor thermal drift detected (+0.27C)
+[01:02:27] [WARN] COMM_RELAY: Minor thermal drift detected (+0.70C)
+[01:02:41] [TRACE] POWER_GRID: Frame transmission ACK received from Node-40
+[01:03:15] [WARN] DOCKING_PORT: Minor thermal drift detected (+0.81C)
+[01:03:27] [INFO] COMM_RELAY: Subsystem heartbeat OK - Power consumption: 121W
+[01:03:30] [DEBUG] PAYLOAD_BAY: Internal register #249 verified - Latency: 56ms
+[01:04:19] [INFO] NAV_SYSTEM: frequency scan - Status: Nominal (Value: 31%)
+[01:04:21] [INFO] ATTITUDE_CTRL: internal audit - Status: Nominal (Value: 28%)
+[01:04:23] [INFO] PAYLOAD_BAY: buffer flush - Status: Nominal (Value: 1%)
+[01:04:33] [TRACE] DOCKING_PORT: Frame transmission ACK received from Node-35
+[01:04:42] [DEBUG] NAV_SYSTEM: Internal register #57 verified - Latency: 4ms
+[01:04:47] [DEBUG] NAV_SYSTEM: Internal register #608 verified - Latency: 15ms
+[01:04:48] [DEBUG] SOLAR_ARRAY: Internal register #204 verified - Latency: 98ms
+[01:04:55] [DEBUG] THERMAL_CTRL: Internal register #320 verified - Latency: 69ms
+[01:05:03] [INFO] PAYLOAD_BAY: Subsystem heartbeat OK - Power consumption: 79W
+[01:05:14] [DEBUG] SOLAR_ARRAY: Internal register #897 verified - Latency: 57ms
+[01:05:29] [INFO] LIFE_SUPPORT: voltage sync - Status: Nominal (Value: 94%)
+[01:06:12] [INFO] COMM_RELAY: Subsystem heartbeat OK - Power consumption: 59W
+[01:06:15] [DEBUG] CABIN_ENV: Internal register #899 verified - Latency: 84ms
+[01:06:43] [TRACE] ATTITUDE_CTRL: Frame transmission ACK received from Node-34
+[01:06:51] [DEBUG] ATTITUDE_CTRL: Internal register #54 verified - Latency: 95ms
+[01:07:02] [DEBUG] NAV_SYSTEM: Internal register #333 verified - Latency: 34ms
+[01:07:08] [TRACE] NAV_SYSTEM: Frame transmission ACK received from Node-81
+[01:07:13] [DEBUG] ATTITUDE_CTRL: Internal register #161 verified - Latency: 15ms
+[01:07:18] [DEBUG] ATTITUDE_CTRL: Internal register #87 verified - Latency: 36ms
+[01:07:47] [INFO] SOLAR_ARRAY: data packet rx - Status: Nominal (Value: 62%)
+[01:08:03] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.42C)
+[01:08:05] [INFO] SOLAR_ARRAY: Subsystem heartbeat OK - Power consumption: 120W
+[01:08:06] [WARN] NAV_SYSTEM: Minor thermal drift detected (+0.69C)
+[01:08:07] [TRACE] POWER_GRID: Frame transmission ACK received from Node-79
+[01:08:22] [TRACE] LIFE_SUPPORT: Frame transmission ACK received from Node-50
+[01:08:38] [WARN] NAV_SYSTEM: Minor thermal drift detected (+0.63C)
+[01:08:48] [INFO] CABIN_ENV: gyro calibration - Status: Nominal (Value: 45%)
+[01:08:49] [INFO] POWER_GRID: Subsystem heartbeat OK - Power consumption: 95W
+[01:08:52] [DEBUG] DOCKING_PORT: Internal register #512 verified - Latency: 73ms
+[01:09:29] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.64C)
+[01:09:40] [DEBUG] PAYLOAD_BAY: Internal register #716 verified - Latency: 49ms
+[01:09:41] [WARN] THERMAL_CTRL: Minor thermal drift detected (+0.48C)
+[01:09:54] [TRACE] COMM_RELAY: Frame transmission ACK received from Node-60
+[01:09:56] [TRACE] POWER_GRID: Frame transmission ACK received from Node-68
+[01:10:01] [DEBUG] ATTITUDE_CTRL: Internal register #916 verified - Latency: 87ms
+[01:10:05] [TRACE] LIFE_SUPPORT: Frame transmission ACK received from Node-8
+[01:10:07] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.31C)
+[01:10:10] [INFO] ATTITUDE_CTRL: Subsystem heartbeat OK - Power consumption: 100W
+[01:10:24] [WARN] LIFE_SUPPORT: Minor thermal drift detected (+0.62C)
+[01:10:33] [INFO] PAYLOAD_BAY: voltage sync - Status: Nominal (Value: 0%)
+[01:10:43] [WARN] NAV_SYSTEM: Minor thermal drift detected (+0.97C)
+[01:10:54] [WARN] LIFE_SUPPORT: Minor thermal drift detected (+0.46C)
+[01:11:02] [INFO] ATTITUDE_CTRL: Subsystem heartbeat OK - Power consumption: 107W
+[01:11:10] [INFO] POWER_GRID: pressure check - Status: Nominal (Value: 36%)
+[01:11:14] [INFO] LIFE_SUPPORT: internal audit - Status: Nominal (Value: 31%)
+[01:11:57] [TRACE] PAYLOAD_BAY: Frame transmission ACK received from Node-54
+[01:12:04] [INFO] POWER_GRID: Subsystem heartbeat OK - Power consumption: 174W
+[01:12:30] [DEBUG] THERMAL_CTRL: Internal register #999 verified - Latency: 36ms
+[01:12:31] [INFO] THERMAL_CTRL: internal audit - Status: Nominal (Value: 35%)
+[01:12:32] [DEBUG] CABIN_ENV: Internal register #524 verified - Latency: 9ms
+[01:12:37] [INFO] CABIN_ENV: Subsystem heartbeat OK - Power consumption: 93W
+[01:12:46] [INFO] PAYLOAD_BAY: internal audit - Status: Nominal (Value: 16%)
+[01:12:48] [INFO] ATTITUDE_CTRL: Subsystem heartbeat OK - Power consumption: 175W
+[01:12:58] [INFO] POWER_GRID: Subsystem heartbeat OK - Power consumption: 170W
+[01:13:04] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.62C)
+[01:13:15] [TRACE] ATTITUDE_CTRL: Frame transmission ACK received from Node-9
+[01:13:17] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-34
+[01:13:44] [INFO] THERMAL_CTRL: telemetry check - Status: Nominal (Value: 17%)
+[01:13:56] [INFO] CABIN_ENV: Subsystem heartbeat OK - Power consumption: 141W
+[01:13:58] [INFO] PAYLOAD_BAY: Subsystem heartbeat OK - Power consumption: 37W
+[01:14:01] [TRACE] COMM_RELAY: Frame transmission ACK received from Node-12
+[01:14:18] [WARN] NAV_SYSTEM: Minor thermal drift detected (+0.38C)
+[01:14:22] [INFO] NAV_SYSTEM: gyro calibration - Status: Nominal (Value: 35%)
+[01:14:34] [INFO] THERMAL_CTRL: voltage sync - Status: Nominal (Value: 81%)
+[01:14:52] [DEBUG] ATTITUDE_CTRL: Internal register #81 verified - Latency: 88ms
+[01:14:56] [WARN] THERMAL_CTRL: Minor thermal drift detected (+0.88C)
+[01:15:04] [WARN] LIFE_SUPPORT: Minor thermal drift detected (+0.64C)
+[01:15:16] [INFO] PAYLOAD_BAY: telemetry check - Status: Nominal (Value: 6%)
+[01:15:39] [WARN] PAYLOAD_BAY: Minor thermal drift detected (+0.20C)
+[01:15:46] [INFO] ATTITUDE_CTRL: telemetry check - Status: Nominal (Value: 94%)
+[01:15:47] [TRACE] LIFE_SUPPORT: Frame transmission ACK received from Node-77
+[01:15:49] [DEBUG] DOCKING_PORT: Internal register #476 verified - Latency: 7ms
+[01:15:56] [TRACE] NAV_SYSTEM: Frame transmission ACK received from Node-58
+[01:16:18] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 27W
+[01:16:24] [DEBUG] DOCKING_PORT: Internal register #583 verified - Latency: 8ms
+[01:16:25] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 58W
+[01:16:26] [INFO] SOLAR_ARRAY: Subsystem heartbeat OK - Power consumption: 75W
+[01:16:30] [INFO] COMM_RELAY: Subsystem heartbeat OK - Power consumption: 88W
+[01:16:35] [INFO] CABIN_ENV: pressure check - Status: Nominal (Value: 34%)
+[01:16:40] [DEBUG] CABIN_ENV: Internal register #283 verified - Latency: 89ms
+[01:17:02] [DEBUG] LIFE_SUPPORT: Internal register #995 verified - Latency: 59ms
+[01:17:10] [DEBUG] NAV_SYSTEM: Internal register #405 verified - Latency: 78ms
+[01:17:15] [WARN] PAYLOAD_BAY: Minor thermal drift detected (+0.67C)
+[01:17:18] [INFO] LIFE_SUPPORT: Subsystem heartbeat OK - Power consumption: 148W
+[01:17:36] [TRACE] DOCKING_PORT: Frame transmission ACK received from Node-57
+[01:17:44] [TRACE] THERMAL_CTRL: Frame transmission ACK received from Node-82
+[01:17:48] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 189W
+[01:17:49] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-2
+[01:17:55] [TRACE] DOCKING_PORT: Frame transmission ACK received from Node-28
+[01:17:57] [INFO] POWER_GRID: Subsystem heartbeat OK - Power consumption: 155W
+[01:17:58] [DEBUG] COMM_RELAY: Internal register #327 verified - Latency: 41ms
+[01:18:05] [DEBUG] COMM_RELAY: Internal register #426 verified - Latency: 87ms
+[01:18:07] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 23W
+[01:18:17] [TRACE] SOLAR_ARRAY: Frame transmission ACK received from Node-48
+[01:18:19] [WARN] ATTITUDE_CTRL: Minor thermal drift detected (+0.96C)
+[01:18:28] [DEBUG] NAV_SYSTEM: Internal register #143 verified - Latency: 9ms
+[01:18:35] [INFO] COMM_RELAY: Subsystem heartbeat OK - Power consumption: 170W
+[01:18:38] [INFO] CABIN_ENV: data packet rx - Status: Nominal (Value: 9%)
+[01:18:47] [INFO] DOCKING_PORT: voltage sync - Status: Nominal (Value: 72%)
+[01:18:52] [INFO] LIFE_SUPPORT: telemetry check - Status: Nominal (Value: 95%)
+[01:18:59] [WARN] COMM_RELAY: Minor thermal drift detected (+0.55C)
+[01:19:04] [INFO] PAYLOAD_BAY: pressure check - Status: Nominal (Value: 63%)
+[01:19:11] [WARN] NAV_SYSTEM: Minor thermal drift detected (+0.37C)
+[01:19:15] [INFO] LIFE_SUPPORT: Subsystem heartbeat OK - Power consumption: 82W
+[01:19:31] [INFO] NAV_SYSTEM: data packet rx - Status: Nominal (Value: 52%)
+[01:19:52] [WARN] ATTITUDE_CTRL: Minor thermal drift detected (+0.83C)
+[01:19:57] [TRACE] ATTITUDE_CTRL: Frame transmission ACK received from Node-18
+[01:20:04] [INFO] SOLAR_ARRAY: Subsystem heartbeat OK - Power consumption: 29W
+[01:20:07] [TRACE] PAYLOAD_BAY: Frame transmission ACK received from Node-37
+[01:20:13] [DEBUG] DOCKING_PORT: Internal register #770 verified - Latency: 92ms
+[01:20:18] [DEBUG] POWER_GRID: Internal register #242 verified - Latency: 43ms
+[01:20:20] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 111W
+[01:20:21] [DEBUG] THERMAL_CTRL: Internal register #34 verified - Latency: 47ms
+[01:20:27] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.67C)
+[01:20:28] [INFO] PAYLOAD_BAY: data packet rx - Status: Nominal (Value: 69%)
+[01:20:36] [TRACE] COMM_RELAY: Frame transmission ACK received from Node-18
+[01:21:06] [INFO] SOLAR_ARRAY: Subsystem heartbeat OK - Power consumption: 22W
+[01:21:14] [INFO] NAV_SYSTEM: Subsystem heartbeat OK - Power consumption: 116W
+[01:21:16] [WARN] ATTITUDE_CTRL: Minor thermal drift detected (+0.82C)
+[01:21:30] [DEBUG] CABIN_ENV: Internal register #132 verified - Latency: 56ms
+[01:21:49] [INFO] COMM_RELAY: Subsystem heartbeat OK - Power consumption: 43W
+[01:22:00] [TRACE] LIFE_SUPPORT: Frame transmission ACK received from Node-37
+[01:22:03] [TRACE] PAYLOAD_BAY: Frame transmission ACK received from Node-16
+[01:22:04] [WARN] THERMAL_CTRL: Minor thermal drift detected (+0.70C)
+[01:22:15] [INFO] ATTITUDE_CTRL: Subsystem heartbeat OK - Power consumption: 162W
+[01:22:47] [WARN] ATTITUDE_CTRL: Minor thermal drift detected (+0.80C)
+[01:23:05] [INFO] SOLAR_ARRAY: buffer flush - Status: Nominal (Value: 75%)
+[01:23:10] [DEBUG] PAYLOAD_BAY: Internal register #785 verified - Latency: 38ms
+[01:23:22] [TRACE] PAYLOAD_BAY: Frame transmission ACK received from Node-1
+[01:23:25] [INFO] SOLAR_ARRAY: Subsystem heartbeat OK - Power consumption: 91W
+[01:23:34] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-88
+[01:23:40] [INFO] NAV_SYSTEM: data packet rx - Status: Nominal (Value: 41%)
+[01:24:04] [INFO] COMM_RELAY: telemetry check - Status: Nominal (Value: 83%)
+[01:24:14] [DEBUG] PAYLOAD_BAY: Internal register #647 verified - Latency: 73ms
+[01:24:25] [INFO] PAYLOAD_BAY: gyro calibration - Status: Nominal (Value: 80%)
+[01:24:27] [INFO] ATTITUDE_CTRL: Subsystem heartbeat OK - Power consumption: 188W
+[01:24:46] [WARN] ATTITUDE_CTRL: Minor thermal drift detected (+0.97C)
+[01:24:50] [TRACE] DOCKING_PORT: Frame transmission ACK received from Node-5
+[01:25:39] [TRACE] ATTITUDE_CTRL: Frame transmission ACK received from Node-53
+[01:25:40] [DEBUG] ATTITUDE_CTRL: Internal register #765 verified - Latency: 58ms
+[01:25:45] [INFO] CABIN_ENV: gyro calibration - Status: Nominal (Value: 45%)
+[01:25:47] [INFO] THERMAL_CTRL: gyro calibration - Status: Nominal (Value: 39%)
+[01:25:49] [TRACE] DOCKING_PORT: Frame transmission ACK received from Node-25
+[01:25:52] [INFO] ATTITUDE_CTRL: telemetry check - Status: Nominal (Value: 36%)
+[01:25:58] [WARN] THERMAL_CTRL: Minor thermal drift detected (+0.85C)
+[01:26:03] [INFO] LIFE_SUPPORT: Subsystem heartbeat OK - Power consumption: 191W
+[01:26:15] [INFO] PAYLOAD_BAY: Subsystem heartbeat OK - Power consumption: 153W
+[01:26:28] [INFO] DOCKING_PORT: telemetry check - Status: Nominal (Value: 91%)
+[01:26:30] [TRACE] COMM_RELAY: Frame transmission ACK received from Node-49
+[01:26:46] [WARN] POWER_GRID: Minor thermal drift detected (+0.43C)
+[01:26:49] [DEBUG] CABIN_ENV: Internal register #240 verified - Latency: 37ms
+[01:26:58] [INFO] PAYLOAD_BAY: Subsystem heartbeat OK - Power consumption: 56W
+[01:27:11] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-43
+[01:27:29] [TRACE] SOLAR_ARRAY: Frame transmission ACK received from Node-83
+[01:27:44] [DEBUG] LIFE_SUPPORT: Internal register #45 verified - Latency: 61ms
+[01:27:53] [DEBUG] PAYLOAD_BAY: Internal register #333 verified - Latency: 64ms
+[01:27:56] [WARN] PAYLOAD_BAY: Minor thermal drift detected (+0.46C)
+[01:28:10] [DEBUG] COMM_RELAY: Internal register #814 verified - Latency: 14ms
+[01:28:21] [TRACE] PAYLOAD_BAY: Frame transmission ACK received from Node-88
+[01:28:46] [INFO] CABIN_ENV: pressure check - Status: Nominal (Value: 29%)
+[01:29:07] [TRACE] SOLAR_ARRAY: Frame transmission ACK received from Node-33
+[01:29:13] [INFO] SOLAR_ARRAY: internal audit - Status: Nominal (Value: 25%)
+[01:29:24] [WARN] POWER_GRID: Minor thermal drift detected (+0.75C)
+[01:29:34] [INFO] DOCKING_PORT: pressure check - Status: Nominal (Value: 27%)
+[01:29:45] [INFO] COMM_RELAY: gyro calibration - Status: Nominal (Value: 81%)
+[01:29:48] [TRACE] NAV_SYSTEM: Frame transmission ACK received from Node-84
+[01:30:18] [INFO] LIFE_SUPPORT: Subsystem heartbeat OK - Power consumption: 187W
+[01:30:24] [TRACE] LIFE_SUPPORT: Frame transmission ACK received from Node-33
+[01:30:30] [DEBUG] PAYLOAD_BAY: Internal register #543 verified - Latency: 59ms
+[01:30:36] [INFO] COMM_RELAY: Subsystem heartbeat OK - Power consumption: 190W
+[01:31:19] [DEBUG] ATTITUDE_CTRL: Internal register #323 verified - Latency: 35ms
+[01:31:31] [TRACE] PAYLOAD_BAY: Frame transmission ACK received from Node-21
+[01:31:46] [WARN] DOCKING_PORT: Minor thermal drift detected (+0.85C)
+[01:31:49] [DEBUG] DOCKING_PORT: Internal register #469 verified - Latency: 86ms
+[01:32:03] [INFO] NAV_SYSTEM: buffer flush - Status: Nominal (Value: 45%)
+[01:32:32] [DEBUG] PAYLOAD_BAY: Internal register #813 verified - Latency: 36ms
+[01:32:36] [TRACE] PAYLOAD_BAY: Frame transmission ACK received from Node-54
+[01:32:58] [TRACE] THERMAL_CTRL: Frame transmission ACK received from Node-13
+[01:33:03] [WARN] PAYLOAD_BAY: Minor thermal drift detected (+0.83C)
+[01:33:08] [INFO] NAV_SYSTEM: gyro calibration - Status: Nominal (Value: 78%)
+[01:33:51] [WARN] CABIN_ENV: Minor thermal drift detected (+0.51C)
+[01:33:52] [TRACE] SOLAR_ARRAY: Frame transmission ACK received from Node-65
+[01:33:53] [WARN] ATTITUDE_CTRL: Minor thermal drift detected (+0.71C)
+[01:34:18] [WARN] CABIN_ENV: Minor thermal drift detected (+0.45C)
+[01:34:35] [DEBUG] SOLAR_ARRAY: Internal register #29 verified - Latency: 10ms
+[01:34:48] [WARN] LIFE_SUPPORT: Minor thermal drift detected (+0.20C)
+[01:34:50] [WARN] ATTITUDE_CTRL: Minor thermal drift detected (+0.35C)
+[01:34:57] [DEBUG] PAYLOAD_BAY: Internal register #535 verified - Latency: 70ms
+[01:35:05] [INFO] PAYLOAD_BAY: Subsystem heartbeat OK - Power consumption: 56W
+[01:35:18] [WARN] LIFE_SUPPORT: Minor thermal drift detected (+0.96C)
+[01:35:21] [WARN] ATTITUDE_CTRL: Minor thermal drift detected (+0.83C)
+[01:35:25] [TRACE] ATTITUDE_CTRL: Frame transmission ACK received from Node-43
+[01:35:46] [DEBUG] DOCKING_PORT: Internal register #985 verified - Latency: 81ms
+[01:35:58] [TRACE] LIFE_SUPPORT: Frame transmission ACK received from Node-25
+[01:36:02] [INFO] ATTITUDE_CTRL: Subsystem heartbeat OK - Power consumption: 65W
+[01:36:12] [TRACE] NAV_SYSTEM: Frame transmission ACK received from Node-79
+[01:36:24] [INFO] LIFE_SUPPORT: data packet rx - Status: Nominal (Value: 29%)
+[01:36:34] [DEBUG] NAV_SYSTEM: Internal register #702 verified - Latency: 21ms
+[01:36:41] [WARN] POWER_GRID: Minor thermal drift detected (+0.48C)
+[01:36:46] [TRACE] PAYLOAD_BAY: Frame transmission ACK received from Node-12
+[01:36:48] [TRACE] NAV_SYSTEM: Frame transmission ACK received from Node-60
+[01:36:50] [INFO] SOLAR_ARRAY: internal audit - Status: Nominal (Value: 75%)
+[01:37:04] [WARN] NAV_SYSTEM: Minor thermal drift detected (+0.11C)
+[01:37:13] [TRACE] NAV_SYSTEM: Frame transmission ACK received from Node-64
+[01:37:26] [WARN] COMM_RELAY: Minor thermal drift detected (+0.87C)
+[01:37:45] [WARN] COMM_RELAY: Minor thermal drift detected (+0.21C)
+[01:37:55] [WARN] THERMAL_CTRL: Minor thermal drift detected (+0.26C)
+[01:38:01] [WARN] ATTITUDE_CTRL: Minor thermal drift detected (+0.14C)
+[01:38:21] [WARN] POWER_GRID: Minor thermal drift detected (+0.22C)
+[01:38:26] [DEBUG] LIFE_SUPPORT: Internal register #834 verified - Latency: 13ms
+[01:39:00] [INFO] PAYLOAD_BAY: gyro calibration - Status: Nominal (Value: 32%)
+[01:39:03] [DEBUG] ATTITUDE_CTRL: Internal register #359 verified - Latency: 11ms
+[01:40:04] [INFO] SOLAR_ARRAY: Subsystem heartbeat OK - Power consumption: 115W
+[01:40:21] [INFO] POWER_GRID: voltage sync - Status: Nominal (Value: 80%)
+[01:40:27] [TRACE] ATTITUDE_CTRL: Frame transmission ACK received from Node-13
+[01:40:30] [INFO] ATTITUDE_CTRL: Subsystem heartbeat OK - Power consumption: 45W
+[01:40:32] [DEBUG] CABIN_ENV: Internal register #49 verified - Latency: 8ms
+[01:40:42] [INFO] COMM_RELAY: Subsystem heartbeat OK - Power consumption: 58W
+[01:40:55] [INFO] NAV_SYSTEM: Subsystem heartbeat OK - Power consumption: 159W
+[01:40:57] [TRACE] SOLAR_ARRAY: Frame transmission ACK received from Node-66
+[01:40:59] [TRACE] COMM_RELAY: Frame transmission ACK received from Node-76
+[01:41:04] [TRACE] POWER_GRID: Frame transmission ACK received from Node-10
+[01:41:24] [WARN] NAV_SYSTEM: Minor thermal drift detected (+0.68C)
+[01:41:36] [DEBUG] LIFE_SUPPORT: Internal register #932 verified - Latency: 46ms
+[01:42:09] [ERROR] COOLING_FAIL: System status set to OFF
+[01:42:24] [DEBUG] ATTITUDE_CTRL: Internal register #508 verified - Latency: 87ms
+[01:42:27] [WARN] ATTITUDE_CTRL: Minor thermal drift detected (+0.59C)
+[01:42:30] [DEBUG] COMM_RELAY: Internal register #558 verified - Latency: 3ms
+[01:42:35] [INFO] NAV_SYSTEM: Subsystem heartbeat OK - Power consumption: 109W
+[01:42:43] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 93W
+[01:43:16] [INFO] POWER_GRID: Subsystem heartbeat OK - Power consumption: 186W
+[01:43:17] [WARN] CABIN_ENV: Minor thermal drift detected (+0.19C)
+[01:43:26] [DEBUG] POWER_GRID: Internal register #808 verified - Latency: 48ms
+[01:43:28] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-93
+[01:43:37] [TRACE] ATTITUDE_CTRL: Frame transmission ACK received from Node-17
+[01:43:49] [WARN] PAYLOAD_BAY: Minor thermal drift detected (+0.44C)
+[01:44:14] [INFO] POWER_GRID: gyro calibration - Status: Nominal (Value: 97%)
+[01:44:19] [WARN] PAYLOAD_BAY: Minor thermal drift detected (+0.15C)
+[01:44:32] [INFO] THERMAL_CTRL: data packet rx - Status: Nominal (Value: 98%)
+[01:44:35] [WARN] THERMAL_CTRL: Minor thermal drift detected (+0.17C)
+[01:44:45] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 187W
+[01:44:50] [INFO] ATTITUDE_CTRL: Subsystem heartbeat OK - Power consumption: 22W
+[01:44:54] [WARN] LIFE_SUPPORT: Minor thermal drift detected (+0.48C)
+[01:45:15] [INFO] POWER_GRID: Subsystem heartbeat OK - Power consumption: 118W
+[01:45:16] [WARN] PAYLOAD_BAY: Minor thermal drift detected (+0.69C)
+[01:45:28] [INFO] PAYLOAD_BAY: Subsystem heartbeat OK - Power consumption: 150W
+[01:45:43] [WARN] THERMAL_CTRL: Minor thermal drift detected (+0.18C)
+[01:45:51] [DEBUG] POWER_GRID: Internal register #339 verified - Latency: 69ms
+[01:45:59] [WARN] NAV_SYSTEM: Minor thermal drift detected (+0.14C)
+[01:46:00] [INFO] COMM_RELAY: Subsystem heartbeat OK - Power consumption: 192W
+[01:46:28] [TRACE] ATTITUDE_CTRL: Frame transmission ACK received from Node-16
+[01:46:38] [WARN] PAYLOAD_BAY: Minor thermal drift detected (+0.91C)
+[01:47:01] [DEBUG] SOLAR_ARRAY: Internal register #521 verified - Latency: 7ms
+[01:47:05] [TRACE] DOCKING_PORT: Frame transmission ACK received from Node-16
+[01:47:07] [WARN] POWER_GRID: Minor thermal drift detected (+0.96C)
+[01:47:11] [TRACE] COMM_RELAY: Frame transmission ACK received from Node-87
+[01:47:31] [INFO] POWER_GRID: buffer flush - Status: Nominal (Value: 27%)
+[01:47:37] [DEBUG] CABIN_ENV: Internal register #453 verified - Latency: 19ms
+[01:47:38] [WARN] POWER_GRID: Minor thermal drift detected (+0.93C)
+[01:47:59] [INFO] NAV_SYSTEM: internal audit - Status: Nominal (Value: 50%)
+[01:48:17] [TRACE] NAV_SYSTEM: Frame transmission ACK received from Node-43
+[01:48:33] [INFO] POWER_GRID: Subsystem heartbeat OK - Power consumption: 49W
+[01:48:43] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 164W
+[01:48:46] [DEBUG] PAYLOAD_BAY: Internal register #198 verified - Latency: 38ms
+[01:49:12] [WARN] NAV_SYSTEM: Minor thermal drift detected (+0.50C)
+[01:49:27] [TRACE] COMM_RELAY: Frame transmission ACK received from Node-90
+[01:49:31] [INFO] CABIN_ENV: Subsystem heartbeat OK - Power consumption: 42W
+[01:49:39] [INFO] POWER_GRID: Subsystem heartbeat OK - Power consumption: 186W
+[01:49:51] [INFO] COMM_RELAY: Subsystem heartbeat OK - Power consumption: 151W
+[01:50:06] [TRACE] THERMAL_CTRL: Frame transmission ACK received from Node-73
+[01:50:15] [TRACE] COMM_RELAY: Frame transmission ACK received from Node-21
+[01:50:25] [TRACE] NAV_SYSTEM: Frame transmission ACK received from Node-35
+[01:50:50] [WARN] ATTITUDE_CTRL: Minor thermal drift detected (+0.13C)
+[01:50:52] [DEBUG] CABIN_ENV: Internal register #496 verified - Latency: 11ms
+[01:50:56] [INFO] POWER_GRID: Subsystem heartbeat OK - Power consumption: 23W
+[01:51:08] [INFO] COMM_RELAY: Subsystem heartbeat OK - Power consumption: 108W
+[01:51:32] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-62
+[01:51:36] [DEBUG] LIFE_SUPPORT: Internal register #457 verified - Latency: 25ms
+[01:51:44] [DEBUG] SOLAR_ARRAY: Internal register #277 verified - Latency: 39ms
+[01:52:27] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-38
+[01:52:43] [WARN] CABIN_ENV: Minor thermal drift detected (+0.24C)
+[01:52:45] [INFO] POWER_GRID: internal audit - Status: Nominal (Value: 65%)
+[01:52:53] [DEBUG] ATTITUDE_CTRL: Internal register #634 verified - Latency: 10ms
+[01:54:05] [WARN] POWER_GRID: Minor thermal drift detected (+0.82C)
+[01:54:26] [DEBUG] SOLAR_ARRAY: Internal register #558 verified - Latency: 61ms
+[01:54:44] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 31W
+[01:54:45] [WARN] POWER_GRID: Minor thermal drift detected (+0.86C)
+[01:54:58] [INFO] NAV_SYSTEM: Subsystem heartbeat OK - Power consumption: 121W
+[01:55:59] [WARN] DOCKING_PORT: Minor thermal drift detected (+0.71C)
+[01:56:11] [WARN] LIFE_SUPPORT: Minor thermal drift detected (+0.52C)
+[01:56:26] [INFO] POWER_GRID: frequency scan - Status: Nominal (Value: 6%)
+[01:56:33] [WARN] PAYLOAD_BAY: Minor thermal drift detected (+0.25C)
+[01:56:42] [TRACE] COMM_RELAY: Frame transmission ACK received from Node-48
+[01:56:50] [TRACE] LIFE_SUPPORT: Frame transmission ACK received from Node-25
+[01:57:10] [DEBUG] ATTITUDE_CTRL: Internal register #677 verified - Latency: 78ms
+[01:57:30] [INFO] POWER_GRID: telemetry check - Status: Nominal (Value: 47%)
+[01:57:34] [INFO] LIFE_SUPPORT: Subsystem heartbeat OK - Power consumption: 180W
+[01:57:46] [WARN] PAYLOAD_BAY: Minor thermal drift detected (+0.88C)
+[01:57:48] [DEBUG] LIFE_SUPPORT: Internal register #206 verified - Latency: 98ms
+[01:57:54] [WARN] LIFE_SUPPORT: Minor thermal drift detected (+0.48C)
+[01:58:31] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 73W
+[01:58:40] [INFO] POWER_GRID: data packet rx - Status: Nominal (Value: 73%)
+[01:58:42] [DEBUG] THERMAL_CTRL: Internal register #847 verified - Latency: 76ms
+[01:58:48] [INFO] SOLAR_ARRAY: buffer flush - Status: Nominal (Value: 15%)
+[01:58:49] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.63C)
+[01:58:50] [WARN] COMM_RELAY: Minor thermal drift detected (+0.11C)
+[01:59:07] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-69
+[01:59:39] [TRACE] PAYLOAD_BAY: Frame transmission ACK received from Node-42
+[02:00:17] [TRACE] THERMAL_CTRL: Frame transmission ACK received from Node-66
+[02:00:22] [DEBUG] NAV_SYSTEM: Internal register #657 verified - Latency: 55ms
+[02:00:28] [INFO] PAYLOAD_BAY: Subsystem heartbeat OK - Power consumption: 116W
+[02:00:35] [WARN] CABIN_ENV: Minor thermal drift detected (+0.58C)
+[02:00:44] [TRACE] SOLAR_ARRAY: Frame transmission ACK received from Node-66
+[02:00:45] [WARN] LIFE_SUPPORT: Minor thermal drift detected (+0.87C)
+[02:00:54] [INFO] PAYLOAD_BAY: frequency scan - Status: Nominal (Value: 58%)
+[02:01:02] [TRACE] ATTITUDE_CTRL: Frame transmission ACK received from Node-62
+[02:01:08] [DEBUG] PAYLOAD_BAY: Internal register #485 verified - Latency: 68ms
+[02:01:19] [INFO] COMM_RELAY: pressure check - Status: Nominal (Value: 16%)
+[02:01:23] [INFO] POWER_GRID: Subsystem heartbeat OK - Power consumption: 67W
+[02:01:28] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-66
+[02:01:37] [INFO] THERMAL_CTRL: frequency scan - Status: Nominal (Value: 29%)
+[02:01:48] [INFO] NAV_SYSTEM: Subsystem heartbeat OK - Power consumption: 116W
+[02:02:01] [DEBUG] LIFE_SUPPORT: Internal register #614 verified - Latency: 67ms
+[02:02:05] [DEBUG] POWER_GRID: Internal register #593 verified - Latency: 78ms
+[02:02:11] [INFO] POWER_GRID: buffer flush - Status: Nominal (Value: 0%)
+[02:02:23] [DEBUG] ATTITUDE_CTRL: Internal register #926 verified - Latency: 35ms
+[02:02:31] [INFO] DOCKING_PORT: buffer flush - Status: Nominal (Value: 44%)
+[02:02:36] [WARN] THERMAL_CTRL: Minor thermal drift detected (+0.26C)
+[02:02:42] [DEBUG] CABIN_ENV: Internal register #295 verified - Latency: 22ms
+[02:02:44] [INFO] COMM_RELAY: Subsystem heartbeat OK - Power consumption: 49W
+[02:02:49] [TRACE] POWER_GRID: Frame transmission ACK received from Node-60
+[02:03:02] [INFO] PAYLOAD_BAY: voltage sync - Status: Nominal (Value: 43%)
+[02:03:26] [DEBUG] ATTITUDE_CTRL: Internal register #6 verified - Latency: 2ms
+[02:03:29] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.36C)
+[02:03:37] [WARN] COMM_RELAY: Minor thermal drift detected (+0.21C)
+[02:03:39] [INFO] PAYLOAD_BAY: pressure check - Status: Nominal (Value: 55%)
+[02:03:57] [TRACE] POWER_GRID: Frame transmission ACK received from Node-74
+[02:04:09] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 193W
+[02:04:24] [INFO] PAYLOAD_BAY: gyro calibration - Status: Nominal (Value: 95%)
+[02:04:52] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 133W
+[02:05:00] [TRACE] POWER_GRID: Frame transmission ACK received from Node-84
+[02:05:20] [INFO] PAYLOAD_BAY: buffer flush - Status: Nominal (Value: 5%)
+[02:05:25] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 173W
+[02:05:43] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.26C)
+[02:05:59] [DEBUG] ATTITUDE_CTRL: Internal register #86 verified - Latency: 62ms
+[02:06:03] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-79
+[02:06:27] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 183W
+[02:06:45] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.36C)
+[02:06:49] [INFO] LIFE_SUPPORT: internal audit - Status: Nominal (Value: 70%)
+[02:06:51] [TRACE] POWER_GRID: Frame transmission ACK received from Node-4
+[02:06:56] [INFO] PAYLOAD_BAY: gyro calibration - Status: Nominal (Value: 55%)
+[02:06:57] [DEBUG] ATTITUDE_CTRL: Internal register #116 verified - Latency: 72ms
+[02:07:00] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-89
+[02:07:01] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.6C)
+[02:07:10] [TRACE] POWER_GRID: Frame transmission ACK received from Node-74
+[02:07:13] [INFO] PAYLOAD_BAY: frequency scan - Status: Nominal (Value: 25%)
+[02:07:31] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 178W
+[02:07:45] [WARN] COMM_RELAY: Minor thermal drift detected (+0.31C)
+[02:07:55] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-99
+[02:07:58] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 133W
+[02:08:00] [DEBUG] NAV_SYSTEM: Internal register #151 verified - Latency: 67ms
+[02:08:10] [DEBUG] ATTITUDE_CTRL: Internal register #156 verified - Latency: 52ms
+[02:08:11] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-69
+[02:08:19] [INFO] LIFE_SUPPORT: telemetry check - Status: Nominal (Value: 20%)
+[02:08:24] [WARN] COMM_RELAY: Minor thermal drift detected (+0.71C)
+[02:08:39] [INFO] LIFE_SUPPORT: voltage sync - Status: Nominal (Value: 90%)
+[02:08:52] [INFO] PAYLOAD_BAY: pressure check - Status: Nominal (Value: 75%)
+[02:08:53] [DEBUG] ATTITUDE_CTRL: Internal register #176 verified - Latency: 92ms
+[02:08:55] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-9
+[02:09:02] [DEBUG] NAV_SYSTEM: Internal register #181 verified - Latency: 77ms
+[02:09:23] [INFO] LIFE_SUPPORT: internal audit - Status: Nominal (Value: 30%)
+[02:09:28] [TRACE] POWER_GRID: Frame transmission ACK received from Node-64
+[02:09:49] [DEBUG] NAV_SYSTEM: Internal register #201 verified - Latency: 17ms
+[02:09:51] [WARN] COMM_RELAY: Minor thermal drift detected (+0.51C)
+[02:09:54] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 168W
+[02:10:03] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 153W
+[02:10:10] [DEBUG] NAV_SYSTEM: Internal register #211 verified - Latency: 87ms
+[02:10:12] [TRACE] POWER_GRID: Frame transmission ACK received from Node-4
+[02:10:18] [DEBUG] ATTITUDE_CTRL: Internal register #216 verified - Latency: 72ms
+[02:10:25] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 123W
+[02:10:28] [DEBUG] NAV_SYSTEM: Internal register #221 verified - Latency: 57ms
+[02:10:40] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-59
+[02:11:03] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 163W
+[02:11:11] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 148W
+[02:11:16] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 133W
+[02:11:19] [INFO] LIFE_SUPPORT: voltage sync - Status: Nominal (Value: 50%)
+[02:11:26] [WARN] COMM_RELAY: Minor thermal drift detected (+0.1C)
+[02:11:35] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.86C)
+[02:11:38] [INFO] LIFE_SUPPORT: data packet rx - Status: Nominal (Value: 20%)
+[02:11:41] [TRACE] POWER_GRID: Frame transmission ACK received from Node-54
+[02:12:03] [DEBUG] NAV_SYSTEM: Internal register #271 verified - Latency: 7ms
+[02:12:11] [INFO] PAYLOAD_BAY: gyro calibration - Status: Nominal (Value: 75%)
+[02:12:13] [DEBUG] ATTITUDE_CTRL: Internal register #276 verified - Latency: 92ms
+[02:12:23] [DEBUG] NAV_SYSTEM: Internal register #281 verified - Latency: 77ms
+[02:12:34] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-79
+[02:12:52] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.66C)
+[02:12:59] [WARN] POWER_GRID: High temperature flag active on adjacent bus
+[02:13:19] [INFO] NAV_SYSTEM: Life support auto-throttling at 53%
+[02:13:49] [WARN] ATTITUDE_CTRL: High temperature flag active on adjacent bus
+[02:14:09] [WARN] THERMAL_CTRL: High temperature flag active on adjacent bus
+[02:14:13] [INFO] ATTITUDE_CTRL: System bypass check #336 - Status: Standby
+[02:14:37] [DEBUG] PAYLOAD_BAY: Diagnostic ping sent to backup module 35
+[02:14:53] [INFO] POWER_GRID: System bypass check #352 - Status: Standby
+[02:15:00] [INFO] PAYLOAD_BAY: Life support auto-throttling at 65%
+[02:15:11] [INFO] DOCKING_PORT: Life support auto-throttling at 57%
+[02:16:04] [WARN] LIFE_SUPPORT: High temperature flag active on adjacent bus
+[02:16:31] [INFO] THERMAL_CTRL: System bypass check #404 - Status: Standby
+[02:16:36] [WARN] ATTITUDE_CTRL: High temperature flag active on adjacent bus
+[02:16:42] [INFO] SOLAR_ARRAY: System bypass check #408 - Status: Standby
+[02:16:45] [DEBUG] DOCKING_PORT: Diagnostic ping sent to backup module 7
+[02:16:50] [INFO] POWER_GRID: System bypass check #412 - Status: Standby
+[02:16:58] [INFO] ATTITUDE_CTRL: System bypass check #416 - Status: Standby
+[02:17:00] [WARN] SOLAR_ARRAY: High temperature flag active on adjacent bus
+[02:17:06] [DEBUG] NAV_SYSTEM: Diagnostic ping sent to backup module 83
+[02:17:12] [INFO] THERMAL_CTRL: System bypass check #424 - Status: Standby
+[02:17:14] [DEBUG] PAYLOAD_BAY: Diagnostic ping sent to backup module 75
+[02:17:16] [WARN] ATTITUDE_CTRL: High temperature flag active on adjacent bus
+[02:17:18] [INFO] CABIN_ENV: Life support auto-throttling at 21%
+[02:17:26] [INFO] NAV_SYSTEM: Life support auto-throttling at 13%
+[02:17:27] [INFO] POWER_GRID: System bypass check #432 - Status: Standby
+[02:17:42] [INFO] DOCKING_PORT: Life support auto-throttling at 97%
+[02:17:49] [DEBUG] NAV_SYSTEM: Diagnostic ping sent to backup module 43
+[02:17:53] [INFO] COMM_RELAY: Life support auto-throttling at 89%
+[02:18:04] [INFO] SOLAR_ARRAY: System bypass check #448 - Status: Standby
+[02:18:30] [INFO] ATTITUDE_CTRL: System bypass check #456 - Status: Standby
 [02:18:38] [INFO] DOCKING_PORT: Life support auto-throttling at 57%
-[02:18:40] [INFO] LIFE_SUPPORT: System bypass check #560 - Status: Standby
-[02:18:42] [DEBUG] NAV_SYSTEM: Diagnostic ping sent to backup module 3
-[02:18:44] [WARN] POWER_GRID: High temperature flag active on adjacent bus
-[02:18:46] [INFO] COMM_RELAY: Life support auto-throttling at 49%
-[02:18:48] [INFO] THERMAL_CTRL: System bypass check #564 - Status: Standby
-[02:18:50] [DEBUG] PAYLOAD_BAY: Diagnostic ping sent to backup module 95
-[02:18:52] [WARN] ATTITUDE_CTRL: High temperature flag active on adjacent bus
-[02:18:54] [INFO] CABIN_ENV: Life support auto-throttling at 41%
-[02:18:56] [INFO] SOLAR_ARRAY: System bypass check #568 - Status: Standby
-[02:18:58] [DEBUG] DOCKING_PORT: Diagnostic ping sent to backup module 87
-[02:19:00] [WARN] LIFE_SUPPORT: High temperature flag active on adjacent bus
-[02:19:02] [INFO] NAV_SYSTEM: Life support auto-throttling at 33%
-[02:19:04] [INFO] POWER_GRID: System bypass check #572 - Status: Standby
-[02:19:06] [DEBUG] COMM_RELAY: Diagnostic ping sent to backup module 79
-[02:19:08] [WARN] THERMAL_CTRL: High temperature flag active on adjacent bus
-[02:19:10] [INFO] PAYLOAD_BAY: Life support auto-throttling at 25%
-[02:19:12] [INFO] ATTITUDE_CTRL: System bypass check #576 - Status: Standby
-[02:19:14] [DEBUG] CABIN_ENV: Diagnostic ping sent to backup module 71
-[02:19:16] [WARN] SOLAR_ARRAY: High temperature flag active on adjacent bus
-[02:19:18] [INFO] DOCKING_PORT: Life support auto-throttling at 17%
-[02:19:20] [INFO] LIFE_SUPPORT: System bypass check #580 - Status: Standby
-[02:19:22] [DEBUG] NAV_SYSTEM: Diagnostic ping sent to backup module 63
-[02:19:24] [WARN] POWER_GRID: High temperature flag active on adjacent bus
-[02:19:26] [INFO] COMM_RELAY: Life support auto-throttling at 9%
-[02:19:28] [INFO] THERMAL_CTRL: System bypass check #584 - Status: Standby
-[02:19:30] [DEBUG] PAYLOAD_BAY: Diagnostic ping sent to backup module 55
-[02:19:32] [WARN] ATTITUDE_CTRL: High temperature flag active on adjacent bus
-[02:19:34] [INFO] CABIN_ENV: Life support auto-throttling at 1%
-[02:19:36] [INFO] SOLAR_ARRAY: System bypass check #588 - Status: Standby
-[02:19:38] [DEBUG] DOCKING_PORT: Diagnostic ping sent to backup module 47
-[02:19:40] [WARN] LIFE_SUPPORT: High temperature flag active on adjacent bus
-[02:19:42] [INFO] NAV_SYSTEM: Life support auto-throttling at 93%
-[02:19:44] [INFO] POWER_GRID: System bypass check #592 - Status: Standby
-[02:19:46] [DEBUG] COMM_RELAY: Diagnostic ping sent to backup module 39
-[02:19:48] [WARN] THERMAL_CTRL: High temperature flag active on adjacent bus
-[02:19:50] [INFO] PAYLOAD_BAY: Life support auto-throttling at 85%
-[02:19:52] [INFO] ATTITUDE_CTRL: System bypass check #596 - Status: Standby
-[02:19:54] [DEBUG] CABIN_ENV: Diagnostic ping sent to backup module 31
-[02:19:56] [WARN] SOLAR_ARRAY: High temperature flag active on adjacent bus
-[02:19:58] [INFO] DOCKING_PORT: Life support auto-throttling at 77%
-[02:20:00] [INFO] LIFE_SUPPORT: System bypass check #600 - Status: Standby
+[02:18:53] [ERROR] COOLING_FAIL: Copy override card from backups/ to config/
+[02:19:03] [DEBUG] DOCKING_PORT: Diagnostic ping sent to backup module 87
+[02:19:25] [INFO] DOCKING_PORT: Life support auto-throttling at 17%
+[02:19:32] [INFO] COMM_RELAY: Life support auto-throttling at 9%
+[02:19:38] [DEBUG] PAYLOAD_BAY: Diagnostic ping sent to backup module 55
+[02:19:43] [WARN] ATTITUDE_CTRL: High temperature flag active on adjacent bus
+[02:19:45] [INFO] CABIN_ENV: Life support auto-throttling at 1%
+[02:19:47] [DEBUG] DOCKING_PORT: Diagnostic ping sent to backup module 47
+[02:19:49] [WARN] LIFE_SUPPORT: High temperature flag active on adjacent bus
+[02:20:03] [DEBUG] CABIN_ENV: Diagnostic ping sent to backup module 31
+[02:20:20] [DEBUG] PAYLOAD_BAY: Diagnostic ping sent to backup module 15
+[02:21:06] [WARN] ATTITUDE_CTRL: High temperature flag active on adjacent bus
+[02:21:07] [INFO] CABIN_ENV: Life support auto-throttling at 21%
+[02:21:21] [INFO] PAYLOAD_BAY: Life support auto-throttling at 5%
+[02:21:43] [INFO] THERMAL_CTRL: System bypass check #544 - Status: Standby
+[02:21:45] [DEBUG] PAYLOAD_BAY: Diagnostic ping sent to backup module 35
+[02:21:55] [DEBUG] DOCKING_PORT: Diagnostic ping sent to backup module 27
+[02:22:04] [DEBUG] COMM_RELAY: Diagnostic ping sent to backup module 19
+[02:22:12] [INFO] ATTITUDE_CTRL: System bypass check #556 - Status: Standby
+[02:22:15] [DEBUG] CABIN_ENV: Diagnostic ping sent to backup module 11
+[02:22:39] [INFO] CABIN_ENV: Life support auto-throttling at 41%
+[02:22:43] [DEBUG] DOCKING_PORT: Diagnostic ping sent to backup module 87
+[02:23:06] [INFO] DOCKING_PORT: Life support auto-throttling at 17%
+[02:23:25] [INFO] CABIN_ENV: Life support auto-throttling at 1%
+[02:23:38] [DEBUG] COMM_RELAY: Diagnostic ping sent to backup module 39
+[02:23:50] [WARN] SOLAR_ARRAY: High temperature flag active on adjacent bus
+[02:23:51] [INFO] DOCKING_PORT: Life support auto-throttling at 77%
+[02:23:57] [INFO] ATTITUDE_CTRL: Subsystem heartbeat OK - Power consumption: 84W
+[02:24:07] [TRACE] POWER_GRID: Frame transmission ACK received from Node-9
+[02:24:13] [INFO] NAV_SYSTEM: Subsystem heartbeat OK - Power consumption: 24W
+[02:24:20] [INFO] PAYLOAD_BAY: Subsystem heartbeat OK - Power consumption: 158W
+[02:24:31] [WARN] DOCKING_PORT: Minor thermal drift detected (+0.80C)
+[02:24:42] [INFO] PAYLOAD_BAY: Subsystem heartbeat OK - Power consumption: 196W
+[02:24:45] [TRACE] COMM_RELAY: Frame transmission ACK received from Node-7
+[02:24:48] [WARN] POWER_GRID: Minor thermal drift detected (+0.34C)
+[02:24:56] [INFO] CABIN_ENV: Subsystem heartbeat OK - Power consumption: 42W
+[02:25:03] [INFO] PAYLOAD_BAY: Subsystem heartbeat OK - Power consumption: 45W
+[02:25:11] [TRACE] DOCKING_PORT: Frame transmission ACK received from Node-12
+[02:25:17] [WARN] POWER_GRID: Minor thermal drift detected (+0.91C)
+[02:25:40] [INFO] POWER_GRID: Subsystem heartbeat OK - Power consumption: 129W
+[02:25:44] [INFO] COMM_RELAY: buffer flush - Status: Nominal (Value: 88%)
+[02:26:17] [WARN] PAYLOAD_BAY: Minor thermal drift detected (+0.39C)
+[02:26:23] [INFO] LIFE_SUPPORT: Subsystem heartbeat OK - Power consumption: 149W
+[02:26:25] [INFO] SOLAR_ARRAY: gyro calibration - Status: Nominal (Value: 71%)
+[02:26:32] [TRACE] POWER_GRID: Frame transmission ACK received from Node-78
+[02:26:35] [TRACE] DOCKING_PORT: Frame transmission ACK received from Node-51
+[02:26:36] [INFO] ATTITUDE_CTRL: gyro calibration - Status: Nominal (Value: 54%)
+[02:26:50] [INFO] DOCKING_PORT: gyro calibration - Status: Nominal (Value: 20%)
+[02:26:53] [TRACE] SOLAR_ARRAY: Frame transmission ACK received from Node-21
+[02:26:55] [WARN] POWER_GRID: Minor thermal drift detected (+0.30C)
+[02:27:05] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.25C)
+[02:27:09] [TRACE] COMM_RELAY: Frame transmission ACK received from Node-17
+[02:27:15] [TRACE] THERMAL_CTRL: Frame transmission ACK received from Node-75
+[02:27:38] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.72C)
+[02:27:51] [TRACE] PAYLOAD_BAY: Frame transmission ACK received from Node-5
+[02:27:54] [DEBUG] LIFE_SUPPORT: Internal register #230 verified - Latency: 23ms
+[02:28:15] [TRACE] ATTITUDE_CTRL: Frame transmission ACK received from Node-50
+[02:28:17] [INFO] SOLAR_ARRAY: frequency scan - Status: Nominal (Value: 81%)
+[02:28:24] [WARN] POWER_GRID: Minor thermal drift detected (+0.12C)
+[02:28:33] [DEBUG] DOCKING_PORT: Internal register #979 verified - Latency: 91ms
+[02:28:59] [INFO] COMM_RELAY: Subsystem heartbeat OK - Power consumption: 54W
+[02:29:04] [WARN] ATTITUDE_CTRL: Minor thermal drift detected (+0.31C)
+[02:29:06] [INFO] LIFE_SUPPORT: Subsystem heartbeat OK - Power consumption: 170W
+[02:29:27] [INFO] POWER_GRID: data packet rx - Status: Nominal (Value: 20%)
+[02:29:46] [TRACE] DOCKING_PORT: Frame transmission ACK received from Node-93
+[02:29:51] [INFO] POWER_GRID: Subsystem heartbeat OK - Power consumption: 155W
+[02:29:57] [INFO] ATTITUDE_CTRL: data packet rx - Status: Nominal (Value: 46%)
+[02:29:59] [DEBUG] LIFE_SUPPORT: Internal register #77 verified - Latency: 59ms
+[02:30:39] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.59C)
+[02:30:45] [TRACE] DOCKING_PORT: Frame transmission ACK received from Node-16
+[02:30:50] [DEBUG] ATTITUDE_CTRL: Internal register #349 verified - Latency: 46ms
+[02:30:59] [WARN] ATTITUDE_CTRL: Minor thermal drift detected (+0.44C)
+[02:31:02] [DEBUG] LIFE_SUPPORT: Internal register #661 verified - Latency: 75ms
+[02:31:14] [TRACE] ATTITUDE_CTRL: Frame transmission ACK received from Node-34
+[02:31:24] [TRACE] SOLAR_ARRAY: Frame transmission ACK received from Node-45
+[02:31:35] [INFO] POWER_GRID: data packet rx - Status: Nominal (Value: 74%)
+[02:31:41] [TRACE] THERMAL_CTRL: Frame transmission ACK received from Node-49
+[02:32:08] [DEBUG] COMM_RELAY: Internal register #149 verified - Latency: 80ms
+[02:32:16] [DEBUG] PAYLOAD_BAY: Internal register #908 verified - Latency: 24ms
+[02:32:32] [TRACE] LIFE_SUPPORT: Frame transmission ACK received from Node-60
+[02:32:40] [WARN] THERMAL_CTRL: Minor thermal drift detected (+0.88C)
+[02:33:04] [WARN] ATTITUDE_CTRL: Minor thermal drift detected (+0.55C)
+[02:33:14] [INFO] ATTITUDE_CTRL: Subsystem heartbeat OK - Power consumption: 169W
+[02:33:31] [INFO] CABIN_ENV: telemetry check - Status: Nominal (Value: 96%)
+[02:33:34] [INFO] PAYLOAD_BAY: gyro calibration - Status: Nominal (Value: 7%)
+[02:33:43] [TRACE] ATTITUDE_CTRL: Frame transmission ACK received from Node-4
+[02:33:52] [TRACE] NAV_SYSTEM: Frame transmission ACK received from Node-83
+[02:34:46] [INFO] NAV_SYSTEM: Subsystem heartbeat OK - Power consumption: 90W
+[02:34:53] [DEBUG] COMM_RELAY: Internal register #949 verified - Latency: 10ms
+[02:35:21] [WARN] PAYLOAD_BAY: Minor thermal drift detected (+0.61C)
+[02:35:41] [TRACE] DOCKING_PORT: Frame transmission ACK received from Node-21
+[02:35:59] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-26
+[02:36:40] [INFO] CABIN_ENV: frequency scan - Status: Nominal (Value: 11%)
+[02:36:48] [INFO] CABIN_ENV: Subsystem heartbeat OK - Power consumption: 200W
+[02:36:53] [DEBUG] COMM_RELAY: Internal register #694 verified - Latency: 16ms
+[02:37:00] [DEBUG] NAV_SYSTEM: Internal register #481 verified - Latency: 25ms
+[02:37:11] [INFO] ATTITUDE_CTRL: Subsystem heartbeat OK - Power consumption: 102W
+[02:37:13] [INFO] COMM_RELAY: Subsystem heartbeat OK - Power consumption: 144W
+[02:37:18] [INFO] SOLAR_ARRAY: Subsystem heartbeat OK - Power consumption: 124W
+[02:37:22] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.39C)
+[02:37:41] [DEBUG] NAV_SYSTEM: Internal register #870 verified - Latency: 77ms
+[02:37:42] [TRACE] THERMAL_CTRL: Frame transmission ACK received from Node-51
+[02:37:59] [INFO] NAV_SYSTEM: Subsystem heartbeat OK - Power consumption: 54W
+[02:38:05] [INFO] LIFE_SUPPORT: Subsystem heartbeat OK - Power consumption: 79W
+[02:38:10] [INFO] COMM_RELAY: Subsystem heartbeat OK - Power consumption: 175W
+[02:38:11] [INFO] NAV_SYSTEM: Subsystem heartbeat OK - Power consumption: 109W
+[02:38:17] [DEBUG] SOLAR_ARRAY: Internal register #276 verified - Latency: 31ms
+[02:38:27] [INFO] POWER_GRID: Subsystem heartbeat OK - Power consumption: 62W
+[02:38:48] [TRACE] LIFE_SUPPORT: Frame transmission ACK received from Node-39
+[02:38:59] [TRACE] POWER_GRID: Frame transmission ACK received from Node-84
+[02:39:01] [TRACE] THERMAL_CTRL: Frame transmission ACK received from Node-68
+[02:39:17] [TRACE] THERMAL_CTRL: Frame transmission ACK received from Node-59
+[02:39:19] [INFO] CABIN_ENV: gyro calibration - Status: Nominal (Value: 42%)
+[02:39:21] [TRACE] DOCKING_PORT: Frame transmission ACK received from Node-86
+[02:39:32] [DEBUG] CABIN_ENV: Internal register #392 verified - Latency: 80ms
+[02:39:35] [WARN] DOCKING_PORT: Minor thermal drift detected (+0.72C)
+[02:39:38] [INFO] ATTITUDE_CTRL: Subsystem heartbeat OK - Power consumption: 187W
+[02:39:46] [WARN] PAYLOAD_BAY: Minor thermal drift detected (+0.19C)
+[02:39:49] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.99C)
+[02:39:51] [INFO] ATTITUDE_CTRL: Subsystem heartbeat OK - Power consumption: 176W
+[02:40:20] [WARN] LIFE_SUPPORT: Minor thermal drift detected (+0.62C)
+[02:40:21] [INFO] COMM_RELAY: Subsystem heartbeat OK - Power consumption: 70W
+[02:40:47] [DEBUG] PAYLOAD_BAY: Internal register #339 verified - Latency: 15ms
+[02:41:01] [INFO] COMM_RELAY: gyro calibration - Status: Nominal (Value: 37%)
+[02:41:12] [INFO] POWER_GRID: telemetry check - Status: Nominal (Value: 99%)
+[02:41:46] [TRACE] ATTITUDE_CTRL: Frame transmission ACK received from Node-27
+[02:41:56] [WARN] POWER_GRID: Minor thermal drift detected (+0.36C)
+[02:42:05] [INFO] ATTITUDE_CTRL: frequency scan - Status: Nominal (Value: 74%)
+[02:42:06] [DEBUG] NAV_SYSTEM: Internal register #759 verified - Latency: 39ms
+[02:42:07] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-62
+[02:42:10] [INFO] SOLAR_ARRAY: gyro calibration - Status: Nominal (Value: 78%)
+[02:42:20] [INFO] LIFE_SUPPORT: Subsystem heartbeat OK - Power consumption: 41W
+[02:42:33] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 21W
+[02:42:37] [DEBUG] THERMAL_CTRL: Internal register #569 verified - Latency: 26ms
+[02:42:49] [INFO] SOLAR_ARRAY: Subsystem heartbeat OK - Power consumption: 54W
+[02:43:09] [INFO] DOCKING_PORT: internal audit - Status: Nominal (Value: 80%)
+[02:43:30] [DEBUG] ATTITUDE_CTRL: Internal register #548 verified - Latency: 84ms
+[02:43:36] [INFO] LIFE_SUPPORT: frequency scan - Status: Nominal (Value: 15%)
+[02:43:44] [TRACE] SOLAR_ARRAY: Frame transmission ACK received from Node-48
+[02:43:49] [TRACE] COMM_RELAY: Frame transmission ACK received from Node-86
+[02:44:04] [DEBUG] POWER_GRID: Internal register #438 verified - Latency: 40ms
+[02:44:15] [INFO] POWER_GRID: Subsystem heartbeat OK - Power consumption: 200W
+[02:44:43] [DEBUG] SOLAR_ARRAY: Internal register #435 verified - Latency: 82ms
+[02:44:54] [INFO] PAYLOAD_BAY: buffer flush - Status: Nominal (Value: 51%)
+[02:45:50] [DEBUG] LIFE_SUPPORT: Internal register #634 verified - Latency: 43ms
+[02:45:52] [WARN] DOCKING_PORT: Minor thermal drift detected (+0.36C)
+[02:46:03] [DEBUG] POWER_GRID: Internal register #136 verified - Latency: 87ms
+[02:46:06] [WARN] LIFE_SUPPORT: Minor thermal drift detected (+0.12C)
+[02:46:25] [INFO] DOCKING_PORT: buffer flush - Status: Nominal (Value: 55%)
+[02:46:33] [WARN] DOCKING_PORT: Minor thermal drift detected (+0.91C)
+[02:46:42] [INFO] COMM_RELAY: Subsystem heartbeat OK - Power consumption: 183W
+[02:46:46] [DEBUG] LIFE_SUPPORT: Internal register #395 verified - Latency: 59ms
+[02:47:28] [INFO] ATTITUDE_CTRL: voltage sync - Status: Nominal (Value: 32%)
+[02:47:33] [DEBUG] NAV_SYSTEM: Internal register #116 verified - Latency: 48ms
+[02:47:40] [INFO] POWER_GRID: Subsystem heartbeat OK - Power consumption: 193W
+[02:48:16] [INFO] NAV_SYSTEM: frequency scan - Status: Nominal (Value: 59%)
+[02:48:30] [INFO] LIFE_SUPPORT: Subsystem heartbeat OK - Power consumption: 49W
+[02:48:57] [INFO] COMM_RELAY: buffer flush - Status: Nominal (Value: 11%)
+[02:49:11] [INFO] SOLAR_ARRAY: Subsystem heartbeat OK - Power consumption: 154W
+[02:49:19] [WARN] LIFE_SUPPORT: Minor thermal drift detected (+0.23C)
+[02:49:21] [INFO] CABIN_ENV: voltage sync - Status: Nominal (Value: 98%)
+[02:49:29] [INFO] CABIN_ENV: gyro calibration - Status: Nominal (Value: 30%)
+[02:49:32] [DEBUG] LIFE_SUPPORT: Internal register #182 verified - Latency: 39ms
+[02:49:37] [DEBUG] PAYLOAD_BAY: Internal register #712 verified - Latency: 38ms
+[02:49:50] [INFO] DOCKING_PORT: internal audit - Status: Nominal (Value: 15%)
+[02:50:08] [TRACE] SOLAR_ARRAY: Frame transmission ACK received from Node-21
+[02:50:16] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 153W
+[02:50:36] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.38C)
+[02:50:47] [TRACE] POWER_GRID: Frame transmission ACK received from Node-33
+[02:51:01] [TRACE] THERMAL_CTRL: Frame transmission ACK received from Node-63
+[02:51:13] [INFO] DOCKING_PORT: internal audit - Status: Nominal (Value: 81%)
+[02:51:24] [INFO] ATTITUDE_CTRL: buffer flush - Status: Nominal (Value: 35%)
+[02:51:27] [WARN] PAYLOAD_BAY: Minor thermal drift detected (+0.30C)
+[02:51:42] [TRACE] COMM_RELAY: Frame transmission ACK received from Node-33
+[02:52:11] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-5
+[02:52:34] [DEBUG] THERMAL_CTRL: Internal register #231 verified - Latency: 24ms
+[02:52:37] [DEBUG] SOLAR_ARRAY: Internal register #257 verified - Latency: 86ms
+[02:52:38] [TRACE] DOCKING_PORT: Frame transmission ACK received from Node-79
+[02:52:46] [INFO] PAYLOAD_BAY: gyro calibration - Status: Nominal (Value: 33%)
+[02:52:54] [WARN] COMM_RELAY: Minor thermal drift detected (+0.16C)
+[02:52:56] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-57
+[02:53:16] [DEBUG] NAV_SYSTEM: Internal register #71 verified - Latency: 84ms
+[02:53:43] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 88W
+[02:54:26] [INFO] PAYLOAD_BAY: buffer flush - Status: Nominal (Value: 99%)
+[02:54:27] [INFO] LIFE_SUPPORT: pressure check - Status: Nominal (Value: 59%)
+[02:55:01] [INFO] NAV_SYSTEM: pressure check - Status: Nominal (Value: 50%)
+[02:55:41] [INFO] DOCKING_PORT: telemetry check - Status: Nominal (Value: 62%)
+[02:56:00] [TRACE] THERMAL_CTRL: Frame transmission ACK received from Node-54
+[02:56:10] [TRACE] DOCKING_PORT: Frame transmission ACK received from Node-93
+[02:56:16] [WARN] COMM_RELAY: Minor thermal drift detected (+0.55C)
+[02:56:20] [INFO] SOLAR_ARRAY: Subsystem heartbeat OK - Power consumption: 120W
+[02:56:28] [TRACE] SOLAR_ARRAY: Frame transmission ACK received from Node-72
+[02:56:49] [INFO] PAYLOAD_BAY: buffer flush - Status: Nominal (Value: 0%)
+[02:56:51] [DEBUG] COMM_RELAY: Internal register #84 verified - Latency: 20ms
+[02:57:00] [TRACE] LIFE_SUPPORT: Frame transmission ACK received from Node-22
+[02:57:06] [TRACE] POWER_GRID: Frame transmission ACK received from Node-48
+[02:57:11] [TRACE] ATTITUDE_CTRL: Frame transmission ACK received from Node-55
+[02:57:26] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.15C)
+[02:57:28] [TRACE] COMM_RELAY: Frame transmission ACK received from Node-74
+[02:57:41] [WARN] COMM_RELAY: Minor thermal drift detected (+0.32C)
+[02:57:44] [INFO] ATTITUDE_CTRL: Subsystem heartbeat OK - Power consumption: 65W
+[02:57:52] [INFO] LIFE_SUPPORT: Subsystem heartbeat OK - Power consumption: 80W
+[02:57:57] [INFO] COMM_RELAY: Subsystem heartbeat OK - Power consumption: 106W
+[02:58:05] [INFO] DOCKING_PORT: telemetry check - Status: Nominal (Value: 9%)
+[02:58:09] [WARN] CABIN_ENV: Minor thermal drift detected (+0.30C)
+[02:58:21] [WARN] NAV_SYSTEM: Minor thermal drift detected (+0.54C)
+[02:58:31] [WARN] NAV_SYSTEM: Minor thermal drift detected (+0.57C)
+[02:58:38] [WARN] POWER_GRID: Minor thermal drift detected (+0.53C)
+[02:59:02] [TRACE] NAV_SYSTEM: Frame transmission ACK received from Node-36
+[02:59:08] [DEBUG] CABIN_ENV: Internal register #76 verified - Latency: 41ms
+[02:59:16] [WARN] THERMAL_CTRL: Minor thermal drift detected (+0.38C)
+[02:59:22] [INFO] LIFE_SUPPORT: Subsystem heartbeat OK - Power consumption: 174W
+[02:59:26] [INFO] PAYLOAD_BAY: gyro calibration - Status: Nominal (Value: 8%)
+[02:59:53] [INFO] THERMAL_CTRL: internal audit - Status: Nominal (Value: 69%)
+[02:59:55] [INFO] LIFE_SUPPORT: Subsystem heartbeat OK - Power consumption: 141W
+[03:00:32] [DEBUG] DOCKING_PORT: Internal register #146 verified - Latency: 13ms
+[03:00:41] [INFO] COMM_RELAY: Subsystem heartbeat OK - Power consumption: 27W
+[03:01:02] [TRACE] COMM_RELAY: Frame transmission ACK received from Node-70
+[03:01:06] [WARN] NAV_SYSTEM: Minor thermal drift detected (+0.92C)
+[03:01:21] [WARN] POWER_GRID: Minor thermal drift detected (+0.23C)
+[03:01:24] [DEBUG] COMM_RELAY: Internal register #958 verified - Latency: 62ms
+[03:01:25] [DEBUG] SOLAR_ARRAY: Internal register #258 verified - Latency: 85ms
+[03:01:29] [WARN] CABIN_ENV: Minor thermal drift detected (+0.74C)
+[03:01:33] [DEBUG] PAYLOAD_BAY: Internal register #131 verified - Latency: 8ms
+[03:01:51] [INFO] CABIN_ENV: Subsystem heartbeat OK - Power consumption: 185W
+[03:01:58] [INFO] ATTITUDE_CTRL: buffer flush - Status: Nominal (Value: 66%)
+[03:02:03] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 133W
+[03:02:23] [INFO] COMM_RELAY: Subsystem heartbeat OK - Power consumption: 107W
+[03:02:26] [INFO] POWER_GRID: Subsystem heartbeat OK - Power consumption: 110W
+[03:02:36] [WARN] DOCKING_PORT: Minor thermal drift detected (+0.54C)
+[03:02:47] [WARN] COMM_RELAY: Minor thermal drift detected (+0.94C)
+[03:02:49] [INFO] ATTITUDE_CTRL: Subsystem heartbeat OK - Power consumption: 144W
+[03:02:54] [DEBUG] ATTITUDE_CTRL: Internal register #826 verified - Latency: 84ms
+[03:03:12] [INFO] ATTITUDE_CTRL: pressure check - Status: Nominal (Value: 78%)
+[03:03:16] [DEBUG] COMM_RELAY: Internal register #432 verified - Latency: 32ms
+[03:03:19] [INFO] DOCKING_PORT: internal audit - Status: Nominal (Value: 61%)
+[03:03:22] [INFO] CABIN_ENV: Subsystem heartbeat OK - Power consumption: 196W
+[03:03:25] [INFO] SOLAR_ARRAY: Subsystem heartbeat OK - Power consumption: 119W
+[03:03:31] [INFO] COMM_RELAY: buffer flush - Status: Nominal (Value: 18%)
+[03:03:32] [TRACE] NAV_SYSTEM: Frame transmission ACK received from Node-57
+[03:04:09] [INFO] CABIN_ENV: voltage sync - Status: Nominal (Value: 64%)
+[03:04:23] [TRACE] POWER_GRID: Frame transmission ACK received from Node-66
+[03:04:35] [INFO] THERMAL_CTRL: pressure check - Status: Nominal (Value: 83%)
+[03:04:52] [TRACE] COMM_RELAY: Frame transmission ACK received from Node-8
+[03:05:01] [TRACE] COMM_RELAY: Frame transmission ACK received from Node-68
+[03:05:22] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 140W
+[03:05:25] [WARN] ATTITUDE_CTRL: Minor thermal drift detected (+0.51C)
+[03:05:26] [DEBUG] DOCKING_PORT: Internal register #755 verified - Latency: 70ms
+[03:05:28] [INFO] NAV_SYSTEM: buffer flush - Status: Nominal (Value: 26%)
+[03:05:48] [INFO] LIFE_SUPPORT: Subsystem heartbeat OK - Power consumption: 57W
+[03:05:49] [TRACE] COMM_RELAY: Frame transmission ACK received from Node-10
+[03:06:00] [DEBUG] PAYLOAD_BAY: Internal register #46 verified - Latency: 77ms
+[03:06:39] [WARN] DOCKING_PORT: Minor thermal drift detected (+0.68C)
+[03:06:50] [INFO] NAV_SYSTEM: buffer flush - Status: Nominal (Value: 11%)
+[03:06:54] [INFO] SOLAR_ARRAY: Subsystem heartbeat OK - Power consumption: 105W
+[03:07:04] [WARN] NAV_SYSTEM: Minor thermal drift detected (+0.30C)
+[03:07:25] [INFO] CABIN_ENV: voltage sync - Status: Nominal (Value: 23%)
+[03:07:29] [WARN] THERMAL_CTRL: Minor thermal drift detected (+0.44C)
+[03:07:48] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 124W
+[03:08:28] [INFO] THERMAL_CTRL: pressure check - Status: Nominal (Value: 100%)
+[03:08:43] [INFO] POWER_GRID: Subsystem heartbeat OK - Power consumption: 26W
+[03:08:45] [INFO] LIFE_SUPPORT: gyro calibration - Status: Nominal (Value: 2%)
+[03:09:08] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.91C)
+[03:09:11] [DEBUG] SOLAR_ARRAY: Internal register #469 verified - Latency: 25ms
+[03:09:13] [DEBUG] POWER_GRID: Internal register #346 verified - Latency: 64ms
+[03:09:25] [TRACE] THERMAL_CTRL: Frame transmission ACK received from Node-7
+[03:09:31] [DEBUG] CABIN_ENV: Internal register #500 verified - Latency: 29ms
+[03:09:40] [DEBUG] ATTITUDE_CTRL: Internal register #86 verified - Latency: 90ms
+[03:09:50] [TRACE] NAV_SYSTEM: Frame transmission ACK received from Node-28
+[03:10:05] [INFO] SOLAR_ARRAY: internal audit - Status: Nominal (Value: 41%)
+[03:10:48] [DEBUG] POWER_GRID: Internal register #405 verified - Latency: 79ms
+[03:11:04] [TRACE] DOCKING_PORT: Frame transmission ACK received from Node-32
+[03:11:12] [INFO] LIFE_SUPPORT: Subsystem heartbeat OK - Power consumption: 73W
+[03:11:41] [WARN] COMM_RELAY: Minor thermal drift detected (+0.60C)
+[03:11:46] [TRACE] THERMAL_CTRL: Frame transmission ACK received from Node-65
+[03:11:55] [TRACE] POWER_GRID: Frame transmission ACK received from Node-47
+[03:11:59] [INFO] THERMAL_CTRL: gyro calibration - Status: Nominal (Value: 34%)
+[03:12:30] [TRACE] PAYLOAD_BAY: Frame transmission ACK received from Node-2
+[03:12:47] [INFO] POWER_GRID: pressure check - Status: Nominal (Value: 75%)
+[03:12:53] [DEBUG] LIFE_SUPPORT: Internal register #663 verified - Latency: 26ms
+[03:13:05] [INFO] SOLAR_ARRAY: internal audit - Status: Nominal (Value: 49%)
+[03:13:07] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 187W
+[03:13:28] [DEBUG] ATTITUDE_CTRL: Internal register #774 verified - Latency: 59ms
+[03:13:35] [INFO] POWER_GRID: Subsystem heartbeat OK - Power consumption: 145W
+[03:13:45] [TRACE] THERMAL_CTRL: Frame transmission ACK received from Node-54
+[03:13:55] [TRACE] DOCKING_PORT: Frame transmission ACK received from Node-86
+[03:13:59] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.43C)
+[03:14:25] [INFO] PAYLOAD_BAY: Subsystem heartbeat OK - Power consumption: 80W
+[03:14:39] [INFO] COMM_RELAY: Subsystem heartbeat OK - Power consumption: 197W
+[03:14:42] [INFO] LIFE_SUPPORT: Subsystem heartbeat OK - Power consumption: 18W
+[03:14:52] [INFO] COMM_RELAY: buffer flush - Status: Nominal (Value: 100%)
+[03:15:04] [DEBUG] NAV_SYSTEM: Internal register #377 verified - Latency: 26ms
+[03:15:15] [DEBUG] PAYLOAD_BAY: Internal register #306 verified - Latency: 24ms
+[03:15:34] [INFO] CABIN_ENV: Subsystem heartbeat OK - Power consumption: 79W
+[03:15:47] [DEBUG] LIFE_SUPPORT: Internal register #72 verified - Latency: 36ms
+[03:16:01] [WARN] CABIN_ENV: Minor thermal drift detected (+0.90C)
+[03:16:07] [DEBUG] COMM_RELAY: Internal register #512 verified - Latency: 31ms
+[03:16:16] [ERROR] COOLING_FAIL: Remove virus file to clear firewall
+[03:16:24] [INFO] CABIN_ENV: pressure check - Status: Nominal (Value: 3%)
+[03:16:43] [TRACE] LIFE_SUPPORT: Frame transmission ACK received from Node-9
+[03:17:13] [WARN] COMM_RELAY: Minor thermal drift detected (+0.79C)
+[03:17:24] [WARN] DOCKING_PORT: Minor thermal drift detected (+0.77C)
+[03:17:52] [WARN] NAV_SYSTEM: Minor thermal drift detected (+0.92C)
+[03:18:12] [DEBUG] DOCKING_PORT: Internal register #173 verified - Latency: 96ms
+[03:18:43] [WARN] DOCKING_PORT: Minor thermal drift detected (+0.47C)
+[03:19:10] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-76
+[03:19:12] [TRACE] DOCKING_PORT: Frame transmission ACK received from Node-85
+[03:19:15] [DEBUG] ATTITUDE_CTRL: Internal register #157 verified - Latency: 60ms
+[03:19:19] [TRACE] POWER_GRID: Frame transmission ACK received from Node-75
+[03:19:33] [TRACE] THERMAL_CTRL: Frame transmission ACK received from Node-73
+[03:19:43] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 197W
+[03:19:57] [INFO] SOLAR_ARRAY: voltage sync - Status: Nominal (Value: 72%)
+[03:19:58] [WARN] PAYLOAD_BAY: Minor thermal drift detected (+0.46C)
+[03:20:00] [TRACE] SOLAR_ARRAY: Frame transmission ACK received from Node-27
+[03:20:02] [INFO] SOLAR_ARRAY: gyro calibration - Status: Nominal (Value: 50%)
+[03:20:04] [INFO] POWER_GRID: buffer flush - Status: Nominal (Value: 23%)
+[03:20:17] [WARN] THERMAL_CTRL: Minor thermal drift detected (+0.45C)
+[03:20:29] [INFO] CABIN_ENV: Subsystem heartbeat OK - Power consumption: 29W
+[03:21:09] [WARN] POWER_GRID: Minor thermal drift detected (+0.46C)
+[03:21:16] [TRACE] POWER_GRID: Frame transmission ACK received from Node-20
+[03:21:33] [WARN] LIFE_SUPPORT: Minor thermal drift detected (+0.30C)
+[03:21:42] [WARN] NAV_SYSTEM: Minor thermal drift detected (+0.17C)
+[03:21:57] [DEBUG] DOCKING_PORT: Internal register #142 verified - Latency: 88ms
+[03:22:03] [INFO] POWER_GRID: Subsystem heartbeat OK - Power consumption: 56W
+[03:22:25] [INFO] THERMAL_CTRL: internal audit - Status: Nominal (Value: 57%)
+[03:22:29] [DEBUG] ATTITUDE_CTRL: Internal register #120 verified - Latency: 27ms
+[03:22:32] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 150W
+[03:22:42] [DEBUG] ATTITUDE_CTRL: Internal register #13 verified - Latency: 80ms
+[03:22:46] [WARN] NAV_SYSTEM: Minor thermal drift detected (+0.37C)
+[03:22:55] [WARN] DOCKING_PORT: Minor thermal drift detected (+0.43C)
+[03:23:01] [INFO] CABIN_ENV: Subsystem heartbeat OK - Power consumption: 88W
+[03:23:05] [INFO] PAYLOAD_BAY: Subsystem heartbeat OK - Power consumption: 185W
+[03:23:14] [TRACE] SOLAR_ARRAY: Frame transmission ACK received from Node-34
+[03:23:15] [TRACE] PAYLOAD_BAY: Frame transmission ACK received from Node-17
+[03:23:22] [TRACE] NAV_SYSTEM: Frame transmission ACK received from Node-61
+[03:23:23] [DEBUG] POWER_GRID: Internal register #892 verified - Latency: 51ms
+[03:24:31] [WARN] DOCKING_PORT: Minor thermal drift detected (+0.25C)
+[03:24:47] [INFO] COMM_RELAY: Subsystem heartbeat OK - Power consumption: 166W
+[03:25:14] [INFO] NAV_SYSTEM: Subsystem heartbeat OK - Power consumption: 198W
+[03:25:20] [INFO] SOLAR_ARRAY: gyro calibration - Status: Nominal (Value: 56%)
+[03:25:24] [DEBUG] POWER_GRID: Internal register #296 verified - Latency: 43ms
+[03:25:29] [DEBUG] COMM_RELAY: Internal register #717 verified - Latency: 80ms
+[03:25:34] [DEBUG] LIFE_SUPPORT: Internal register #178 verified - Latency: 97ms
+[03:26:16] [DEBUG] SOLAR_ARRAY: Internal register #508 verified - Latency: 52ms
+[03:26:36] [INFO] POWER_GRID: Subsystem heartbeat OK - Power consumption: 116W
+[03:26:58] [INFO] NAV_SYSTEM: data packet rx - Status: Nominal (Value: 57%)
+[03:27:00] [WARN] LIFE_SUPPORT: Minor thermal drift detected (+0.98C)
+[03:27:04] [DEBUG] ATTITUDE_CTRL: Internal register #265 verified - Latency: 63ms
+[03:27:15] [WARN] ATTITUDE_CTRL: Minor thermal drift detected (+0.33C)
+[03:27:25] [DEBUG] LIFE_SUPPORT: Internal register #530 verified - Latency: 41ms
+[03:27:47] [INFO] PAYLOAD_BAY: Subsystem heartbeat OK - Power consumption: 183W
+[03:27:58] [DEBUG] COMM_RELAY: Internal register #241 verified - Latency: 22ms
+[03:28:42] [INFO] LIFE_SUPPORT: pressure check - Status: Nominal (Value: 81%)
+[03:28:44] [TRACE] THERMAL_CTRL: Frame transmission ACK received from Node-48
+[03:28:46] [TRACE] LIFE_SUPPORT: Frame transmission ACK received from Node-11
+[03:29:01] [TRACE] THERMAL_CTRL: Frame transmission ACK received from Node-42
+[03:29:03] [WARN] COMM_RELAY: Minor thermal drift detected (+0.49C)
+[03:29:10] [WARN] DOCKING_PORT: Minor thermal drift detected (+0.32C)
+[03:29:12] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 105W
+[03:29:35] [INFO] CABIN_ENV: Subsystem heartbeat OK - Power consumption: 189W
+[03:29:38] [INFO] POWER_GRID: Subsystem heartbeat OK - Power consumption: 80W
+[03:29:40] [DEBUG] LIFE_SUPPORT: Internal register #295 verified - Latency: 56ms
+[03:30:09] [INFO] COMM_RELAY: data packet rx - Status: Nominal (Value: 42%)
+[03:30:19] [WARN] LIFE_SUPPORT: Minor thermal drift detected (+0.98C)
+[03:30:32] [INFO] CABIN_ENV: Subsystem heartbeat OK - Power consumption: 30W
+[03:30:57] [DEBUG] DOCKING_PORT: Internal register #962 verified - Latency: 10ms
+[03:31:06] [INFO] SOLAR_ARRAY: buffer flush - Status: Nominal (Value: 73%)
+[03:31:12] [INFO] COMM_RELAY: data packet rx - Status: Nominal (Value: 72%)
+[03:31:20] [INFO] PAYLOAD_BAY: Subsystem heartbeat OK - Power consumption: 173W
+[03:31:26] [TRACE] NAV_SYSTEM: Frame transmission ACK received from Node-47
+[03:31:35] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 118W
+[03:31:53] [DEBUG] NAV_SYSTEM: Internal register #393 verified - Latency: 9ms
+[03:32:03] [WARN] POWER_GRID: Minor thermal drift detected (+0.11C)
+[03:32:22] [DEBUG] SOLAR_ARRAY: Internal register #383 verified - Latency: 31ms
+[03:32:40] [WARN] CABIN_ENV: Minor thermal drift detected (+0.45C)
+[03:33:01] [INFO] NAV_SYSTEM: buffer flush - Status: Nominal (Value: 83%)
+[03:33:18] [WARN] LIFE_SUPPORT: Minor thermal drift detected (+0.51C)
+[03:33:24] [WARN] DOCKING_PORT: Minor thermal drift detected (+0.58C)
+[03:33:55] [INFO] DOCKING_PORT: data packet rx - Status: Nominal (Value: 74%)
+[03:34:05] [INFO] NAV_SYSTEM: voltage sync - Status: Nominal (Value: 69%)
+[03:34:22] [INFO] CABIN_ENV: voltage sync - Status: Nominal (Value: 12%)
+[03:34:26] [INFO] COMM_RELAY: Subsystem heartbeat OK - Power consumption: 118W
+[03:34:42] [DEBUG] ATTITUDE_CTRL: Internal register #279 verified - Latency: 90ms
+[03:34:52] [INFO] CABIN_ENV: telemetry check - Status: Nominal (Value: 21%)
+[03:34:57] [INFO] NAV_SYSTEM: Subsystem heartbeat OK - Power consumption: 91W
+[03:35:14] [INFO] SOLAR_ARRAY: Subsystem heartbeat OK - Power consumption: 186W
+[03:35:29] [INFO] ATTITUDE_CTRL: telemetry check - Status: Nominal (Value: 60%)
+[03:35:46] [INFO] POWER_GRID: voltage sync - Status: Nominal (Value: 48%)
+[03:35:47] [DEBUG] DOCKING_PORT: Internal register #829 verified - Latency: 17ms
+[03:35:54] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.29C)
+[03:36:03] [INFO] LIFE_SUPPORT: Subsystem heartbeat OK - Power consumption: 123W
+[03:36:04] [DEBUG] PAYLOAD_BAY: Internal register #306 verified - Latency: 97ms
+[03:36:10] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 80W
+[03:36:11] [INFO] LIFE_SUPPORT: Subsystem heartbeat OK - Power consumption: 190W
+[03:36:19] [INFO] ATTITUDE_CTRL: pressure check - Status: Nominal (Value: 41%)
+[03:36:21] [DEBUG] CABIN_ENV: Internal register #118 verified - Latency: 10ms
+[03:36:27] [DEBUG] LIFE_SUPPORT: Internal register #738 verified - Latency: 51ms
+[03:36:31] [INFO] THERMAL_CTRL: telemetry check - Status: Nominal (Value: 56%)
+[03:36:39] [DEBUG] POWER_GRID: Internal register #483 verified - Latency: 10ms
+[03:37:00] [INFO] COMM_RELAY: internal audit - Status: Nominal (Value: 78%)
+[03:37:02] [INFO] SOLAR_ARRAY: Subsystem heartbeat OK - Power consumption: 78W
+[03:37:03] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-79
+[03:37:06] [WARN] COMM_RELAY: Minor thermal drift detected (+0.28C)
+[03:37:09] [INFO] POWER_GRID: Subsystem heartbeat OK - Power consumption: 143W
+[03:37:25] [TRACE] NAV_SYSTEM: Frame transmission ACK received from Node-14
+[03:37:39] [TRACE] PAYLOAD_BAY: Frame transmission ACK received from Node-24
+[03:38:02] [WARN] POWER_GRID: Minor thermal drift detected (+0.88C)
+[03:38:04] [INFO] LIFE_SUPPORT: internal audit - Status: Nominal (Value: 52%)
+[03:38:08] [INFO] SOLAR_ARRAY: Subsystem heartbeat OK - Power consumption: 53W
+[03:38:15] [INFO] POWER_GRID: frequency scan - Status: Nominal (Value: 58%)
+[03:38:19] [DEBUG] NAV_SYSTEM: Internal register #784 verified - Latency: 33ms
+[03:38:22] [INFO] PAYLOAD_BAY: Subsystem heartbeat OK - Power consumption: 138W
+[03:38:30] [INFO] COMM_RELAY: Subsystem heartbeat OK - Power consumption: 33W
+[03:38:40] [INFO] THERMAL_CTRL: internal audit - Status: Nominal (Value: 47%)
+[03:38:42] [DEBUG] LIFE_SUPPORT: Internal register #374 verified - Latency: 40ms
+[03:38:44] [WARN] ATTITUDE_CTRL: Minor thermal drift detected (+0.76C)
+[03:38:48] [TRACE] NAV_SYSTEM: Frame transmission ACK received from Node-16
+[03:38:54] [DEBUG] POWER_GRID: Internal register #394 verified - Latency: 19ms
+[03:39:11] [INFO] PAYLOAD_BAY: Subsystem heartbeat OK - Power consumption: 132W
+[03:39:16] [WARN] DOCKING_PORT: Minor thermal drift detected (+0.86C)
+[03:39:32] [WARN] LIFE_SUPPORT: Minor thermal drift detected (+0.30C)
+[03:39:35] [WARN] COMM_RELAY: Minor thermal drift detected (+0.12C)
+[03:39:56] [INFO] NAV_SYSTEM: pressure check - Status: Nominal (Value: 62%)
+[03:40:01] [DEBUG] NAV_SYSTEM: Internal register #585 verified - Latency: 32ms
+[03:40:09] [TRACE] SOLAR_ARRAY: Frame transmission ACK received from Node-80
+[03:40:48] [DEBUG] NAV_SYSTEM: Internal register #923 verified - Latency: 70ms
+[03:40:58] [INFO] POWER_GRID: Subsystem heartbeat OK - Power consumption: 87W
+[03:41:07] [WARN] PAYLOAD_BAY: Minor thermal drift detected (+0.63C)
+[03:41:16] [INFO] SOLAR_ARRAY: data packet rx - Status: Nominal (Value: 69%)
+[03:41:28] [INFO] POWER_GRID: Subsystem heartbeat OK - Power consumption: 193W
+[03:42:01] [DEBUG] SOLAR_ARRAY: Internal register #210 verified - Latency: 26ms
+[03:42:02] [DEBUG] LIFE_SUPPORT: Internal register #207 verified - Latency: 24ms
+[03:42:29] [INFO] POWER_GRID: voltage sync - Status: Nominal (Value: 36%)
+[03:42:36] [INFO] CABIN_ENV: data packet rx - Status: Nominal (Value: 70%)
+[03:42:37] [WARN] PAYLOAD_BAY: Minor thermal drift detected (+0.46C)
+[03:42:42] [DEBUG] COMM_RELAY: Internal register #122 verified - Latency: 6ms
+[03:42:48] [DEBUG] CABIN_ENV: Internal register #341 verified - Latency: 15ms
+[03:42:50] [WARN] PAYLOAD_BAY: Minor thermal drift detected (+0.61C)
+[03:42:52] [INFO] ATTITUDE_CTRL: Subsystem heartbeat OK - Power consumption: 129W
+[03:43:06] [INFO] PAYLOAD_BAY: frequency scan - Status: Nominal (Value: 90%)
+[03:43:14] [TRACE] PAYLOAD_BAY: Frame transmission ACK received from Node-9
+[03:43:30] [DEBUG] THERMAL_CTRL: Internal register #35 verified - Latency: 56ms
+[03:43:31] [TRACE] PAYLOAD_BAY: Frame transmission ACK received from Node-6
+[03:43:32] [WARN] NAV_SYSTEM: Minor thermal drift detected (+0.78C)
+[03:43:37] [DEBUG] DOCKING_PORT: Internal register #540 verified - Latency: 17ms
+[03:43:54] [INFO] POWER_GRID: voltage sync - Status: Nominal (Value: 89%)
+[03:43:58] [INFO] ATTITUDE_CTRL: Subsystem heartbeat OK - Power consumption: 120W
+[03:44:20] [DEBUG] NAV_SYSTEM: Internal register #847 verified - Latency: 40ms
+[03:44:30] [TRACE] COMM_RELAY: Frame transmission ACK received from Node-92
+[03:44:44] [TRACE] NAV_SYSTEM: Frame transmission ACK received from Node-3
+[03:44:48] [INFO] COMM_RELAY: data packet rx - Status: Nominal (Value: 48%)
+[03:45:11] [INFO] POWER_GRID: frequency scan - Status: Nominal (Value: 7%)
+[03:45:52] [INFO] THERMAL_CTRL: Subsystem heartbeat OK - Power consumption: 154W
+[03:45:54] [INFO] POWER_GRID: Subsystem heartbeat OK - Power consumption: 88W
+[03:46:06] [WARN] NAV_SYSTEM: Minor thermal drift detected (+0.10C)
+[03:46:22] [TRACE] SOLAR_ARRAY: Frame transmission ACK received from Node-81
+[03:46:33] [INFO] LIFE_SUPPORT: Subsystem heartbeat OK - Power consumption: 154W
+[03:46:53] [TRACE] CABIN_ENV: Frame transmission ACK received from Node-17
+[03:47:19] [INFO] NAV_SYSTEM: data packet rx - Status: Nominal (Value: 92%)
+[03:47:28] [INFO] DOCKING_PORT: Subsystem heartbeat OK - Power consumption: 200W
+[03:47:48] [WARN] PAYLOAD_BAY: Minor thermal drift detected (+0.76C)
+[03:48:09] [WARN] LIFE_SUPPORT: Minor thermal drift detected (+0.17C)
+[03:48:12] [WARN] SOLAR_ARRAY: Minor thermal drift detected (+0.67C)
+[03:48:22] [WARN] PAYLOAD_BAY: Minor thermal drift detected (+0.75C)
+[03:48:41] [INFO] POWER_GRID: internal audit - Status: Nominal (Value: 62%)
+[03:48:44] [WARN] COMM_RELAY: Minor thermal drift detected (+0.72C)
+[03:48:47] [DEBUG] SOLAR_ARRAY: Internal register #152 verified - Latency: 69ms
