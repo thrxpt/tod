@@ -36,6 +36,19 @@ Each PC and WSL distribution has separate workshop storage. Removing the worksho
 
 If a previous workshop was created using Docker Desktop, that container remains in Docker Desktop's separate engine. This installer creates its own container inside WSL and does not migrate that earlier progress. Disable Docker Desktop's WSL integration for the selected distribution before installing a local engine. Close the old workshop if it occupies port 7681.
 
+## Update to the latest GitHub version
+
+Push the updated files to this repository's `main` branch first. On the workshop PC, open **Start Despina Workshop.cmd** to start Docker, then run the commands below in **PowerShell**. Replace `Ubuntu` with the WSL distribution used during setup (`wsl --list --verbose` lists the installed distributions).
+
+**This deletes the existing workshop container and all mission progress, including learner files and checkpoints. Save anything you need before continuing.** Setup then downloads the latest source from GitHub and builds a new container.
+
+```powershell
+wsl -d Ubuntu -u root -- docker --host unix:///var/run/docker.sock rm -f despina-workshop
+if ($LASTEXITCODE -eq 0) {
+    irm https://raw.githubusercontent.com/thrxpt/tod/main/setup.ps1 | iex
+}
+```
+
 ## Before the workshop
 
 Test one Windows PC first, then run setup on the remaining PCs. Check that the Terminal accepts commands, `mission-status` works, and the Dream Capsule API accepts a test submission. Setup checks that Windows can open the workshop page. WSL's localhost forwarding must be enabled for this to work.
