@@ -116,19 +116,19 @@ RUN printf '%s\n' \
     '    echo '"'"'[✔] Cooling System : ONLINE (35°C)'"'"'' \
     '    COOLING_OK=true' \
     else \
-    '    echo '"'"'[ ] Cooling System : FAIL (run cp backups/cooling_override.conf config/cooling.conf)'"'"'' \
+    '    echo '"'"'[ ] Cooling System : FAIL'"'"'' \
     fi \
     'if [ ! -f /home/engineer/neptune/config/virus.exe ]; then' \
     '    echo '"'"'[✔] Firewall Status: CLEAN'"'"'' \
     '    VIRUS_OK=true' \
     else \
-    '    echo '"'"'[ ] Firewall Status: BLOCKED (remove virus files from config/)'"'"'' \
+    '    echo '"'"'[ ] Firewall Status: BLOCKED'"'"'' \
     fi \
     'if [ -s /home/engineer/neptune/dreams/dream.txt ]; then' \
     '    echo '"'"'[✔] Dream Capsule  : READY TO LAUNCH'"'"'' \
     '    DREAM_OK=true' \
     else \
-    '    echo '"'"'[ ] Dream Capsule  : NOT READY (create dreams/dream.txt)'"'"'' \
+    '    echo '"'"'[ ] Dream Capsule  : NOT READY'"'"'' \
     fi \
     'echo '"'"'================================================='"'"'' \
     'if [ "$COOLING_OK" = true ] && [ "$VIRUS_OK" = true ] && [ "$DREAM_OK" = true ]; then' \
