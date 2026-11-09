@@ -1,4 +1,4 @@
-# Operation Neptune — Windows setup
+# Operation Neptune: Terminal of Despina
 
 Run setup while signed in to the Windows account used for the workshop. Each PC needs an initialized **Ubuntu or Debian distribution on WSL 2** and internet access. Setup selects the first installed distribution named `Ubuntu`, `Ubuntu-<version>`, or `Debian`. Check the distributions and their WSL versions with `wsl --list --verbose`.
 
