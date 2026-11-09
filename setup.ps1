@@ -50,6 +50,8 @@ function Start-DespinaSetup {
     & wsl.exe --distribution $distribution --user root --exec bash $linuxPath.Trim()
     if ($LASTEXITCODE -ne 0) { throw 'WSL workshop setup failed. Review the message above, then run setup again.' }
 
+    [IO.File]::WriteAllText((Join-Path $installDirectory 'distribution.txt'), $distribution, (New-Object Text.UTF8Encoding($false)))
+
     if (-not $UseCachedScript) {
         $launcherPath = Join-Path $installDirectory 'start.ps1'
         $quotedDistribution = $distribution.Replace("'", "''")

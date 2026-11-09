@@ -34,6 +34,16 @@ Setup keeps a background WSL session running so the workshop stays available aft
 
 Each PC and WSL distribution has separate workshop storage. Removing the workshop container, unregistering its WSL distribution, or deleting Docker's data removes its progress.
 
+## Un-setup
+
+Open **PowerShell** and run this command to remove the workshop from the selected WSL distribution.
+
+```powershell
+irm https://raw.githubusercontent.com/thrxpt/tod/main/unsetup.ps1 | iex
+```
+
+Running the script immediately deletes the workshop container and all mission progress. It also removes this Windows account's workshop desktop launcher and local setup scripts. It keeps Docker Engine, its packages, and unrelated Docker data because they may be used by other containers. If Docker is stopped, start it in WSL with `service docker start` and run un-setup again. The un-setup script uses the distribution saved during setup. To choose it explicitly, save `unsetup.ps1` locally and run `powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\unsetup.ps1 -DistributionName Debian`.
+
 If a previous workshop was created using Docker Desktop, that container remains in Docker Desktop's separate engine. This installer creates its own container inside WSL and does not migrate that earlier progress. Disable Docker Desktop's WSL integration for the selected distribution before installing a local engine. Close the old workshop if it occupies port 7681.
 
 ## Update to the latest GitHub version
